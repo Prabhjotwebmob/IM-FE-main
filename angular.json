@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "im-main": {
+    "IM-FE-main": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/im-main",
+            "outputPath": "dist/im-fe-main",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "im-main:build:production"
+              "browserTarget": "IM-FE-main:build:production"
             },
             "development": {
-              "browserTarget": "im-main:build:development"
+              "browserTarget": "IM-FE-main:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "im-main:build"
+            "browserTarget": "IM-FE-main:build"
           }
         },
         "test": {

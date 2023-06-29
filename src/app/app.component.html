@@ -1,2 +1,14 @@
-<app-home></app-home>
-<router-outlet></router-outlet>
+<div class="row" style="display: flex;">
+    <div class="col" style="width: 20%;border-right: 1px solid black;">
+        <div #SidebarComponent></div>
+    </div>
+    <div class="col" style="margin-left: 10px;">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+<div>
+    <script src="/market/remoteEntry.js"></script>
+    <script src="/trading-partner/remoteEntry.js"></script>
+    <script src="/third-party/remoteEntry.js"></script>
+</div>

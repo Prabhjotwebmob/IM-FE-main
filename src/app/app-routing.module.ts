@@ -2,17 +2,35 @@ import { loadRemoteModule } from '@angular-architects/module-federation';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const URL = 'http://localhost:3000/remoteEntry.js';
-
-export const APP_ROUTES: Routes = [{
-  path: 'chat',
+export const APP_ROUTES: Routes = [
+{
+  path: 'market',
   loadChildren: () =>
     loadRemoteModule({
       type: 'manifest',
-      remoteName: 'chat',
+      remoteName: 'market',
       exposedModule: './Module',
-    }).then((m) => m.ChatModule),
-}];
+    }).then((m) => m.MarketModule),
+},
+{
+  path: 'trading-partner',
+  loadChildren: () =>
+    loadRemoteModule({
+      type: 'manifest',
+      remoteName: 'trading-partner',
+      exposedModule: './Module',
+    }).then((m) => m.TradingPartnerModule),
+},
+{
+  path: 'third-party',
+  loadChildren: () =>
+    loadRemoteModule({
+      type: 'manifest',
+      remoteName: 'third-party',
+      exposedModule: './Module',
+    }).then((m) => m.ThirdPartyModule),
+}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(APP_ROUTES)],

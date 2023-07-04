@@ -1,20 +1,17 @@
 {
-  "name": "im-fe-main",
+  "name": "IM-FE-main",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href='/im-fe-main/'",
+    "build": "ng build --base-href='/IM-FE-main/'",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:dist": "concurrently \"serve ../dist/im-fe-main -l 5000 -s\" \"serve ../dist/money-market -l 3000 -s\" ",
     "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
   },
   "private": true,
   "dependencies": {
     "@angular-architects/module-federation": "^15.0.3",
-    "@angular-architects/module-federation-runtime": "^15.0.3",
-    "@angular-architects/module-federation-tools": "^15.0.3",
     "@angular/animations": "^15.2.0",
     "@angular/common": "^15.2.0",
     "@angular/compiler": "^15.2.0",

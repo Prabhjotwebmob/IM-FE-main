@@ -9,15 +9,15 @@ import { loadRemoteModule } from '../utils/federation-utils';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent implements AfterViewInit {
-  @ViewChild('SidebarComponent', {read: ViewContainerRef}) SidebarComponent;
+  @ViewChild('SidebarComponent', { read: ViewContainerRef }) SidebarComponent;
   constructor(
     private componentFactoryResolver: ComponentFactoryResolver,
-    ) {
+  ) {
   }
 
   ngAfterViewInit(): void {
     loadRemoteModule({
-      remoteEntry: "http://localhost:3005/remoteEntry.js",
+      remoteEntry: "http://localhost:4001/remoteEntry.js",
       remoteName: "sidebar",
       exposedModule: "SidebarComponent"
     })

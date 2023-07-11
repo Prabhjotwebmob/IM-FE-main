@@ -1,6 +1,9 @@
 {
-	"auth": "http://localhost:3006/remoteEntry.js",
-	"market": "http://localhost:3001/remoteEntry.js",
-	"trading-partner":"http://localhost:3002/remoteEntry.js",
-	"third-party":"http://localhost:3003/remoteEntry.js"
+	"auth": "http://localhost:4000/remoteEntry.js",
+	"money-market": "http://localhost:4004/remoteEntry.js",
+	"repo": "http://localhost:4005/remoteEntry.js",
+	"notice-account": "http://localhost:4006/remoteEntry.js",
+	"mosaic": "http://localhost:4007/remoteEntry.js",
+	"trading-partner":"http://localhost:4009/remoteEntry.js",
+	"third-party":"http://localhost:4010/remoteEntry.js"
 }

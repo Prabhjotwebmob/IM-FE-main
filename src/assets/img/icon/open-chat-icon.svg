@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25">
+	<title>open-chat-icon-svg</title>
+	<defs>
+		<image  width="25" height="23" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAXCAMAAADJPRQhAAAAAXNSR0IB2cksfwAAAM9QTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////qIieRwAAAEV0Uk5TAAIXSFJPKgcrqPz/01sBGMLtX+P+mFjrrpGc3mE/vujh5PYhN7xW6qY02fuEBXmyIw9jxvXzz83JjhsgexXVA7oJDjoIH19cHwAAAJ1JREFUeJy90MkSwUAUheFDaCIaMc8R8xhDEGIe3v+ZaFW9iL4LK/+uz1d1Fw2EwlrkuyiLAYjrCUMpyVNIZ9T9nZmFliMlX0CxRIqhSylXZNVaUOpM1mgGxWrJ7Pav13hH1u39+Vp/QP/BEKMxCZMpZo5JwXwBLFfu+vPabD3Zbs8g8j0B7gFKQuzjSQUhZ34hAP7VuVE7cH88ifUFtQkj1Ps3tSQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="1"/>
+</svg>

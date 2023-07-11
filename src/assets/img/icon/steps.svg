@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="18px" viewBox="0 0 39 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="32.4673572%" y1="88.521373%" x2="0%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(-1344.000000, -206.000000)">
+            <g id="Group-10-Copy" transform="translate(1344.000000, 206.000000)">
+                <polygon id="Rectangle-6" fill="#006CFF" points="0 13.9956021 11.4845938 13.9956021 11.4845938 17.4193548 0 17.4193548"></polygon>
+                <rect id="Rectangle-6-Copy" fill="#29A744" x="11.4845938" y="7.28445748" width="11.4845938" height="3.48387097"></rect>
+                <rect id="Rectangle-6-Copy-2" fill="#FF7B01" x="23.0252101" y="0.633431085" width="11.4845938" height="3.48387097"></rect>
+                <polygon id="Path-2" fill="url(#linearGradient-1)" opacity="0.209207589" points="12.7720039 12.5733338 17.6722104 16.0926235 12.743227 16.008961"></polygon>
+                <polygon id="Path-2-Copy" fill="url(#linearGradient-1)" opacity="0.209207589" points="23.8159517 6.38709677 28.7150529 9.9142506 23.8095238 10.2826495"></polygon>
+                <polygon id="Path-2-Copy-2" fill="url(#linearGradient-1)" opacity="0.209207589" points="35.070028 0.0360975188 39.9755571 3.57993975 35.070028 3.94833867"></polygon>
+                <polygon id="Path-3" fill="#0055CA" points="-4.49405295e-06 14.1377084 11.4753057 14.1377084 12.7731092 12.5733809 2.22704163 12.5733809"></polygon>
+                <polygon id="Path-4" fill="#00439E" points="11.4656644 13.9959747 12.7987385 12.5738574 12.7670037 16.0094964 11.4656644 17.4180136"></polygon>
+                <polygon id="Path-5" fill="#15862D" points="11.4845938 7.38678003 22.9666354 7.38678003 23.8095238 6.38709677 13.6108503 6.38709677"></polygon>
+                <polygon id="Path-5-Copy" fill="#CB6100" points="23.0259878 0.698719522 34.510817 0.698719522 35.070028 0.0359934283 25.1514666 0.0359934283"></polygon>
+                <polygon id="Path-6" fill="#0B681E" points="22.9691877 7.29536471 23.8326903 6.38709677 23.8254635 10.2833864 22.9691877 10.7851209"></polygon>
+                <polygon id="Path-6-Copy" fill="#A34E00" points="34.5098039 0.638814793 35.0812325 0.0367705248 35.0812325 3.61556751 34.5098039 4.11730205"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

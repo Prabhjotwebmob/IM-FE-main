@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" width="22" height="22">
+	<title>DownloadIcon</title>
+	<defs>
+		<image  width="22" height="22" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAAAXNSR0IB2cksfwAAASZQTFRFAAAAIiteJCtfIyxgJCxgIyxgIy1hJStgJCxgJCxgJCxgJCxgJCpeAAAAJCxgJCxgJCxgJC1gJCxfJCxgKSlcJC1gIytgJCtgJCxgJCRbJCthJCxfJCxgJC1hJStfJSxfJStgJSthIy1fJC1fJydiJCxgIyxfJCxgJC1gISljIytjJCxfJi1iIyxgJCxgJC1gJCxgJCxfJCthJC1gJC1gJC1gIytgJCxgJCxgJCxgJSxfIyxhJi9eJCtgJSxgJC1gIi9eJC1gLi5dGjNmJCxgJC1eJCxgJStgJSxfJC1gIyxhIyxgJC1hJC1hJCthJSxfAFVVJCxgJCxgJCxgJCthIy1fJCxfKSlcJCxgJCtgIy1fJiteJCxgJC5gIiteIy1hIyxgICBgd1nmDAAAAGJ0Uk5TAB5rl7KYbDC5/+fMMQF//ep4IwAAd4KlnA4Am4AAdgAAmTN+Dem7/o8fJPsibcDlv7O2yAC3n+Thom4dG3B1cia9CwrBOZW8w5Q6irHOcYsDqoX5KqYAGfGNgzb4OAAAAAi668GvAAABK0lEQVR4nE2R61LCMBBGFyzSpWAKkZuKivVSQaBKFbyCoCCiUlTEK+L7v4RpNsOwP/bkO83uZKYAVIHggqaFFgMwX2EdMWIYEUQ9OpOxJWbGE5wvQyJpslRM2TRmsgArnIuQXcU0+TVMSuZyEuuY8hFlGZra2CTm2ZboupmlaFnE7Z1d8bK9OCUb0Qa1Zh+CWFC2WFT+AEsQiihrl8u28pU8aIbcK4TjiI9yv3EIR1X/ULJcX7tWyU/VYzipyTmXu44jmgz1UzjDc+UdR9kLvIQCXtGz/Nt0amAT4LrSoiR2y2rXbkS/ZR2K3Ttij9376GNDxodHiSccSHpD7LQFn19eAVo9HHo05fXZyH2Dcf3947PGBt7s/3yFuajx6Bu7PzBfk98p59O/iYr/STUjk/7/uTUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

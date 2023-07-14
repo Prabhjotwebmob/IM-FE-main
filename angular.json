@@ -7,7 +7,7 @@
 			"projectType": "application",
 			"schematics": {
 				"@schematics/angular:component": {
-					"style": "scss"
+					"style": "css"
 				}
 			},
 			"root": "",
@@ -24,15 +24,28 @@
 							"zone.js"
 						],
 						"tsConfig": "tsconfig.app.json",
-						"inlineStyleLanguage": "scss",
+						"inlineStyleLanguage": "css",
 						"assets": [
 							"src/favicon.ico",
 							"src/assets"
 						],
 						"styles": [
-							"src/styles.scss"
+							"src/assets/css/style.css",
+							"src/assets/css/light-theme.scss",
+							"src/assets/css/dark-theme.scss",
+							"src/assets/css/Theme-style.css",
+							"src/assets/css/thirdparty.css",
+							"./node_modules/bootstrap/dist/css/bootstrap.min.css",
+							"./node_modules/angular2-multiselect-dropdown/themes/default.theme.css",
+							"node_modules/primeicons/primeicons.css",
+							"node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+							"node_modules/primeng/resources/primeng.min.css",
+							"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
 						],
-						"scripts": [],
+						"scripts": [
+							"./node_modules/jquery/dist/jquery.min.js",
+              				"./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+						],
 						"extraWebpackConfig": "webpack.config.js",
 						"commonChunk": false
 					},
@@ -97,19 +110,31 @@
 							"zone.js/testing"
 						],
 						"tsConfig": "tsconfig.spec.json",
-						"inlineStyleLanguage": "scss",
+						"inlineStyleLanguage": "css",
 						"assets": [
 							"src/favicon.ico",
 							"src/assets"
 						],
 						"styles": [
-							"src/styles.scss"
+							"src/assets/css/style.css",
+							"src/assets/css/light-theme.scss",
+							"src/assets/css/dark-theme.scss",
+							"src/assets/css/Theme-style.css",
+							"src/assets/css/thirdparty.css",
+							"./node_modules/bootstrap/dist/css/bootstrap.min.css",
+							"./node_modules/angular2-multiselect-dropdown/themes/default.theme.css",
+							"node_modules/primeicons/primeicons.css",
+							"node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+							"node_modules/primeng/resources/primeng.min.css",
+							"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
 						],
-						"scripts": []
+						"scripts": [
+							"./node_modules/jquery/dist/jquery.min.js",
+              				"./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+						]
 					}
 				}
 			}
 		}
-	},
-	"defaultProject": "im-fe-main"
+	}
 }

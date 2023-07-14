@@ -1,0 +1,4926 @@
+@import url("https://use.fontawesome.com/releases/v5.0.7/css/all.css");
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-alpine.css";
+@import "~ag-grid-community/dist/styles/ag-theme-alpine-dark.css";
+/* // regular style toast */
+
+
+body.skin1 .mat-dialog-container {
+	background: transparent;
+	box-shadow: none;
+}
+
+body.skin1 .modal-body {
+	color: var(--white);
+}
+
+body.skin1 .modal-inner-body {
+	background: #323232;
+	padding: 0;
+}
+
+body.skin1 .modal-inner-body .body-border {
+	border: 1rem solid #54504c;
+	padding: 1rem;
+}
+
+body.skin1 .modal-content {
+	background-color: #54504C;
+}
+
+body.skin1 .modal-header,
+body.skin1 .modal-footer {
+	background-color: #323232;
+	color: var(--white);
+	border-color: var(--ash);
+}
+
+body.skin1 .modal-header .modal-title {
+	color: var(--white);
+}
+
+body.skin1 .modal-header .close {
+	color: var(--white);
+}
+
+body.skin1 .modal-body .table tr th,
+body.skin1 .modal-body .table tr td {
+	color: var(--white);
+}
+
+body.skin1 .form-control::placeholder {
+	color: var(--white);
+}
+
+body.skin1 .form-control,
+body.skin1 .form-control-with-bg .form-control,
+body.skin1 .form-control.form-control-with-bg,
+body.skin1 textarea {
+	background: #54504C !important;
+	border: 0.071rem solid var(--ash) !important;
+	color: var(--white) !important;
+}
+
+body.skin1 .btn-primary {
+	background-color: var(--white) !important;
+	border-color: #323232;
+	color: #323232;
+}
+
+body.skin1 .btn-primary:hover {
+	opacity: 0.85;
+}
+
+body.skin2 .btn-primary {
+	background-color: var(--teal) !important;
+	border: var(--teal) !important;
+	color: var(--white);
+}
+
+body.skin2 .btn-primary:hover {
+	background-color: var(--teal) !important;
+}
+
+body.skin3 .btn-primary {
+	background-color: var(--lime) !important;
+	border-color: var(--lime) !important;
+	color: var(--white);
+}
+
+body.skin3 .btn-primary:hover {
+	background-color: var(--lime) !important;
+	opacity: 0.9 !important;
+}
+
+body.skin4 .btn-primary {
+	background-color: var(--lightpink) !important;
+	border-color: var(--lightpink) !important;
+	color: var(--white);
+}
+
+body.skin4 .btn-primary:hover {
+	background-color: var(--lightpink) !important;
+	opacity: 0.9 !important;
+}
+
+body.skin1 .btn-warning {
+	background: var(--orange) !important;
+	border-color: var(--orange) !important;
+	color: var(--white);
+}
+body.skin1 .btn-warning:hover,
+body .skin1 .btn-warning:focus {
+	background: var(--yelloworange) !important;
+	border-color: var(--yelloworange) !important;
+}
+
+body.skin2 .btn-warning {
+	background-color: var(--navy) !important;
+	border: var(--navy) !important;
+	color: var(--white);
+}
+
+body.skin2 .btn-warning:hover {
+	background-color: var(--navy) !important;
+	opacity: 0.9 !important;
+}
+
+body.skin3 .btn-warning {
+	background: var(--purple) !important;
+	border-color: var(--purple) !important;
+	color: var(--white);
+}
+
+body.skin3 .btn-warning:hover,
+.btn-warning:focus {
+	background: #7928ce !important;
+	border-color: var(--purple) !important;
+}
+
+body.skin4 .btn-warning {
+	background: var(--skyblue) !important;
+	border-color: var(--skyblue) !important;
+	color: var(--white);
+}
+
+body.skin4 .btn-warning:hover {
+	background-color: var(--skyblue) !important;
+	opacity: 0.9 !important;
+}
+
+body.skin1 .btn-success {
+	background: #FFFFFF !important;
+	border: 0.071rem solid var(--ash) !important;
+	color: #323232 !important;
+}
+
+body.skin1 .btn-success:hover {
+	background: #ffffffa8 !important;
+}
+
+body.skin2 .btn-success {
+	background: var(--teal) !important;
+	border-color: var(--teal) !important;
+	color: var(--white);
+}
+
+body.skin2 .btn-success:hover {
+	opacity: 0.85;
+}
+
+body.skin3 .btn-success {
+	background-color: var(--cyan) !important;
+	border-color: var(--cyan);
+	color: var(--white);
+}
+
+body.skin4 .btn-success {
+	background-color: var(--skyblue) !important;
+	border-color: var(--skyblue) !important;
+	color: var(--white);
+}
+
+body.skin1 .badge-success {
+	background: var(--lightgreen);
+}
+
+body.skin2 .badge-success,
+body.skin2 .contactus-modal>.row .contact-content {
+	background: var(--teal) !important;
+}
+
+body.skin3 .badge-success {
+	background-color: var(--cyan) !important;
+}
+
+body.skin4 .badge-success {
+	background-color: var(--lightpink) !important;
+}
+
+#toast-container>.ngx-toastr {
+	padding: 0.714rem 1rem 1rem 3.571rem;
+}
+
+#toast-container>.ngx-toastr>.toast-close-button {
+	display: block;
+	opacity: 1;
+}
+
+body.skin2 li.myclass,
+body.skin2 .ssi-select-box {
+	color: var(--darkgray);
+}
+
+body.skin2 li.myclass:hover {
+	color: var(--darkgray);
+}
+
+.skin1 .privacy-policy-text {
+	color: var(--white) !important;
+	text-decoration: underline;
+}
+
+.skin1 .privacy-policy-text:hover {
+	color: var(--white) !important;
+	text-decoration: underline;
+}
+
+.skin2 .privacy-policy-text {
+	color: var(--blackrgba7);
+	text-decoration: underline;
+}
+
+.skin2 .privacy-policy-text:hover {
+	color: var(--blackrgba7);
+	text-decoration: underline;
+}
+
+.skin3 .privacy-policy-text {
+	color: rgba(255, 255, 255, 0.65);
+	text-decoration: underline;
+}
+
+.skin3 .privacy-policy-text:hover {
+	color: rgba(255, 255, 255, 0.65);
+	text-decoration: underline;
+}
+
+body.skin3 .second-heading-counterparty {
+	background-color: #061c35 !important;
+}
+
+body.skin3 #credit-limit-table.table tbody tr.table-head-pro {
+	background-color: #354e65 !important;
+}
+
+body.skin3 #credit-limit-table thead {
+	background-color: #01294f !important;
+}
+
+body.skin2 .second-heading-counterparty {
+	background-color: var(--whiteishgray) !important;
+}
+
+.skin2 #credit-limit-table thead {
+	background-color: var(--teal) !important;
+}
+
+.skin2 .network-link .text-orange,
+body.skin2 .request-forquote .expiry-timer-buttons .btn-outline-primary {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 button.news-arrow.moneymarkit-newsarrow {
+	background: var(--teal) !important;
+}
+
+.skin3 .network-link .text-orange,
+body.skin1 .ticketmodal .expiry-timer-buttons .btn-outline-primary,
+body.skin3 .ticketmodal .expiry-timer-buttons .btn-outline-primary {
+	color: var(--white) !important;
+}
+
+body.skin2 .sidenav-modal .modal-body a.text-orange {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .ticketmodal table .form-control::placeholder {
+	color: var(--lightblack);
+}
+
+/*skin2 css start*/
+
+body.skin2 #counterparty-overviewmodal .modal-header {
+	background-color: var(--white) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 #counterparty-overviewmodal .modal-header .close,
+body.skin2 .repo-quote-table,
+body.skin2 .chf-moneymarkit .fqx-enote {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 #counterparty-overviewmodal ul.nav.nav-tabs {
+	background: var(--white) !important;
+}
+
+body.skin2 .mmcounterprty-modal .nav-items a.nav-link {
+	background: var(--white) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 #counterparty-overviewmodal .nav-items a.nav-link.active {
+	background: var(--blueishwhite) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 #counterparty-overviewmodal .table tbody tr:nth-of-type(odd) {
+	background: var(--blueishwhite) !important;
+}
+
+body.skin2 #counterparty-overviewmodal .table tbody tr:nth-of-type(even) {
+	background: var(--white) !important;
+}
+
+body.skin2 #counterparty-overviewmodal .table tbody tr td {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 #counterparty-overviewmodal .table thead tr {
+	background-color: var(--blueishwhite) !important;
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .sidenav-modal .badge.badge-success,
+body.skin2 .sidenav-modal .label.label-success {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 #livequotes1 i.interactive.fa.fa-upload.text-success.prev-prices {
+	color: var(--teal) !important;
+}
+
+body.skin2 .profile-popup .tablinks {
+	position: relative;
+}
+
+body.skin2 .profile-popup .tab button.active::after {
+	content: "";
+	height: 0.214rem;
+	width: 1.857rem;
+	background: var(--white);
+	position: absolute;
+	bottom: 0.214rem;
+	left: 2.5rem;
+}
+
+body.skin2 .display-head-sec {
+	color: var(--lightblack);
+}
+
+body.skin2 .profile-popup .tab button {
+	background-color: var(--teal);
+	color: var(--white);
+}
+
+body.skin2 .profile-popup .tab button {
+	border-bottom: none !important;
+}
+
+body.skin2 .profile-popup .tab button.active {
+	background-color: #2780bf;
+	color: var(--white);
+}
+
+body.skin2 .profile-popup .tab button:hover {
+	background-color: #2780bf;
+	color: var(--white);
+}
+
+body.skin2 .profile-popup .modal-title {
+	color: var(--white);
+	background-color: var(--teal);
+}
+
+body.skin2 .header .navbar-header img.inslogo.inslogo-desk.black-logo {
+	display: block;
+}
+
+.header .navbar-header img.inslogo.inslogo-desk.black-logo {
+	display: none;
+}
+
+body.skin2 .clientlevellist .search-form input {
+	top: 0.286rem !important;
+	border: 0.071rem solid #c9c4c4 !important;
+}
+
+body.skin2 .medianews-page table td label {
+	margin-bottom: 0px;
+	color: var(--darkgray);
+}
+
+body.skin2 .medianews-page i {
+	color: var(--darkgray);
+}
+
+body.skin2 .trades-today i.fa-times-circle.text-danger {
+	color: #9b2135 !important;
+}
+
+body.skin2 .contact-iconred {
+	display: block !important;
+}
+
+body.skin2 .contact-icongreen,
+body.skin2 .contact-iconblue {
+	display: none;
+}
+
+body.skin2 .chf-moneymarkit .request-forquote td,
+body.skin2 .table-basic.create-trade-table tr {
+	border-color: rgb(204 203 203 / 0%) !important;
+}
+
+body.skin2 .mmcounterprty-modal .table>thead>tr>th {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .mmcounterprty-modal td.offerActive {
+	background: transparent !important;
+}
+
+body.skin2 .mmcounterprty-modal td.bidActive {
+	background: transparent !important;
+}
+
+body.skin2 .text-orange {
+	color: var(--teal) !important;
+}
+
+body.skin2 .note-content .bg-green {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 .badge-danger {
+	color: var(--white);
+	background-color: #404f63;
+}
+
+body.skin2 {
+	background-color: var(--white) !important;
+}
+
+body.skin2 .note-content .counterbid-td span {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .note-content .counterbid-td span.text-orange,
+body.skin2 .note-content .counterbid-td span.counter-price-rate {
+	color: var(--teal) !important;
+}
+
+body.skin2 .timedout-request .note-content .table tbody tr:nth-of-type(odd) td {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .counter-price-rate {
+	color: var(--teal) !important;
+}
+
+body.skin2 .note-content button.action.bg-green.btn.open-rej-btn {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 .media-not-sec i.media-acco.fas.fa-bullhorn:after {
+	background-color: var(--lightblack) !important;
+}
+
+body.skin2 .tradingpartnerlist .panel-body label.Instrumental-label,
+body.skin2 .repo-admin-trades .repo-trades-today .table thead th,
+body.skin2 .repo-admin-trades .repo-trades-today .table>tbody>tr>td {
+	color: var(--white) !important;
+}
+
+body.skin2 .request-forquote td span {
+	color: var(--lightblack);
+}
+
+body.skin2 .request-forquote .table-basic td.mio-td span {
+	background: var(--navy) !important;
+	border-left: 0.071rem solid var(--white) !important;
+	color: var(--white) !important;
+}
+
+body.skin2 #for-all-toggle.btn-toggle.btn-secondary.active {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 .greenswitch input:checked+.greenswitchslider {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 #auto-fill-active-ccy .greenswitch input:checked+.greenswitchslider {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 .currencySelector .widget.widget-stats.bg-grey-darker:hover {
+	background-color: var(--teal) !important;
+	color: var(--white);
+}
+
+body.skin2 .currencySelector .widget.widget-stats.bg-grey-darker:hover .bid-offer-div {
+	color: var(--white);
+}
+
+body.skin2 .tooltip-div .tooltip-content table td {
+	color: var(--white) !important;
+}
+
+
+body.skin2 .trades-today .panel-body label {
+	color: var(--lightblack) !important;
+	font-size: 1rem;
+}
+
+body.skin2 .tradingpartnerlist .panel-body label {
+	color: var(--lightblack) !important;
+	font-size: 1rem;
+}
+
+body.skin2 .changepass-form i.pull-right {
+	color: var(--teal) !important;
+}
+
+body.skin2 .header.navbar-default .navbar-toggle .icon-bar {
+	background-color: var(--lightblack);
+}
+
+body.skin2 .header.navbar-default .navbar-toggle .full-icon-bar {
+	color: var(--lightblack);
+}
+
+body.skin2 .timedout-request .note.note-dark,
+body.skin2 .note.note-inverse {
+	background: #EAECF5 !important;
+	color: var(--white);
+}
+
+body.skin2 .timeout-content-side .timedout-request .tooltip.show.bs-tooltip-left {
+	color: var(--white) !important;
+	opacity: 1;
+}
+
+body.skin2 .timeout-content-side {
+	background: var(--white);
+}
+
+body.skin2 .media-not-sec .accordion {
+	background-color: #4899d3;
+}
+
+body.skin2 .timeout-content-side .text-orange {
+	color: var(--teal) !important;
+}
+
+body.skin2 .note-content .table tbody tr:nth-of-type(odd) {
+	background-color: var(--white) !important;
+}
+
+body.skin2 .timedout-request .note .note-icon {
+	background-color: var(--navy);
+}
+
+body.skin2 .note-content .table tbody tr:nth-of-type(even) {
+	background: var(--white) !important;
+}
+
+.timer-td .green-text,
+.trade-status .green-text {
+	color: var(--lightgreen) !important;
+}
+
+body.skin2 .note-content .bg-green {
+	background-color: var(--white) !important;
+}
+
+body.skin2 .btn-danger {
+	background: var(--navy) !important;
+	border-color: var(--navy) !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .btn-danger:hover {
+	background: var(--navy) !important;
+	border-color: var(--navy) !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .display-head-p i {
+	color: var(--darkgray) !important;
+}
+
+body.skin1 .display-head-p i {
+	color: var(--white) !important;
+}
+
+body.skin2 .text-orange-lighter {
+	color: var(--teal) !important;
+}
+
+body.skin2 .term-range-slider>.ngx-slider .ngx-slider-bubble.ngx-slider-limit,
+body.skin2 .broken-dates-slider>.ngx-slider .ngx-slider-bubble,
+body.skin2 .broken-dates-slider>.ngx-slider .ngx-slider-bubble.ngx-slider-limit {
+	color: var(--lightblack);
+}
+
+body.skin2 .bg-orange,
+body.skin2 .btn-warning body.skin2 .btn-danger {
+	background-color: var(--navy) !important;
+	border-color: var(--navy) !important;
+}
+
+body.skin2 .ticketmodal table .btn-default {
+	color: var(--lightblack);
+	background-color: var(--lightgray);
+}
+
+body.skin2 .ticketmodal table .btn-warning {
+	background-color: var(--navy) !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .amount-words-counts-td p {
+	margin-bottom: 0px;
+	color: var(--darkgray) !important;
+	font-weight: 600;
+}
+
+body.skin2 .amount-words-counts-td p .text-success {
+	color: var(--darkgray) !important;
+}
+
+body.skin1 .amount-words-counts-td p .text-success {
+	color: var(--white) !important;
+}
+
+body.skin2 .bg-orange:hover,
+body.skin2 .btn-warning:hover {
+	background-color: var(--navy) !important;
+	opacity: 0.85;
+}
+
+body.skin2 .ngx-slider .ngx-slider-selection {
+	background-color: var(--navy) !important;
+}
+body.skin2 .ngx-slider .ngx-slider-pointer{
+	background-color: var(--teal) !important;
+}
+body.skin2 .contentside .rfq-btn-new.btn-default {
+	background: rgb(115, 115, 115) !important;
+}
+
+body.skin2 .contentside .btn-default {
+	background: var(--navy) !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .contentside .btn-default:hover {
+	background: #1f62b5 !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .moneymarkit-modal .trades-today tbody tr:nth-of-type(odd) {
+	background-color: transparent;
+}
+
+body.skin2 .moneymarkit-modal .moneymarkit .table td {
+	border-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+body.skin2 .moneymarkit-modal .panel-body {
+	background-color: rgb(222, 222, 222) !important;
+}
+
+body.skin2 .clientlevellist .contentside .btn-default {
+	background: rgb(175, 171, 171) !important;
+	color: var(--lightblack);
+}
+
+body.skin2 {
+	background: #f8f8fa;
+}
+
+body.skin2 .request-forquote td label {
+	color: var(--lightblack) !important;
+}
+
+body.skin1 .request-forquote .panel-request-forquote {
+	background-color: #54504c;
+}
+
+body.skin2 .request-forquote .panel-body {
+	background-color: var(--white) !important;
+}
+
+body.skin2 .request-forquote .panel-inverse>.panel-heading {
+	background-color: var(--white) !important;
+	color: var(--lightblack);
+	border-bottom: 0.071rem solid var(--pepple);
+}
+
+body.skin2 .contentside .request-forquote input,
+body.skin2 .contentside .request-forquote select,
+body.skin2 .contentside .request-forquote input::placeholder {
+	background: var(--white) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .amount-words-counts-td p {
+	margin-bottom: 0px;
+	color: var(--darkgray) !important;
+	font-weight: 600;
+}
+
+body.skin2 .contentside .request-forquote span.f-s-12 {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .trades-today .table thead th,
+body.skin2 .trades-today .table>thead>tr>th,
+body.skin2 .trades-today .table tbody td,
+body.skin2 .trades-today .table tbody td .ddco-limited,
+body.skin2 .repo-trades-today table tbody td,
+body.skin2 .black-modal-table .modal-content .trades-today .level-log-history thead th,
+body.skin2 .black-modal-table .modal-content .trades-today .level-log-history tbody tr td {
+	color: var(--metal) !important;
+}
+
+body.skin2 .trades-today .table tbody td,
+body.skin2 .trades-today .table thead th,
+body.skin2 .trades-today .table>thead>tr>th {
+	border-color: 0.071rem solid rgba(111, 107, 107, 0.25) !important;
+}
+
+body.skin2 .search-div .search {
+	background: var(--teal) !important;
+}
+
+body.skin2 .link-unlink-div {
+	background: var(--teal);
+}
+
+body.skin2 .contentside .moneymarkit .nav-tabs a.nav-link.active,
+body.skin2 .contentside .moneymarkit .nav-tabs .nav-items:focus .nav-link,
+body.skin2 .notification-tabs .nav-link.active,
+body.skin2 .level-control .nav-tabs a.nav-link.active {
+	color: #242C60 !important;
+	border-bottom: 0.071rem solid #242C60 !important;
+}
+
+.amount-words-counts-td p .text-success,
+.black-modal-table .modal-content .trades-today .table thead th,
+.black-modal-table .modal-content .trades-today .table tbody tr td {
+	color: var(--white) !important;
+}
+
+body.skin1 .chf-moneymarkit td,
+body.skin3 .chf-moneymarkit td,
+body.skin4 .chf-moneymarkit td {
+	color: var(--white);
+}
+
+body.skin2 .chf-moneymarkit td {
+	color: var(--blackrgba7);
+}
+
+body.skin1 .inProgressText,
+body.skin3 .inProgressText,
+body.skin4 .inProgressText {
+	color: var(--white);
+}
+
+body.skin2 .inProgressText {
+	color: var(--lightblack);
+}
+
+body.skin2 .instpanel .panel-body .table thead th,
+body.skin2 .table>thead>tr>th {
+	color: var(--white) !important;
+}
+
+body.skin2 .tradingpartnerdetail .panel-body {
+	background-color: var(--white) !important;
+	box-shadow: 0px 0.214rem 0.429rem 0px var(--lightgray);
+}
+
+body.skin2 .contentside .currency-div select.form-control,
+body.skin2 .contentside .currency-head-div select.form-control {
+	background-color: var(--white) !important;
+	border-color: var(--lightblack) !important;
+	color: var(--darkgray);
+}
+
+body.skin2 .currency-div select.form-control option,
+body.skin2 .currency-head-div select.form-control option,
+body.skin2 .currency-head-div label {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 #exportFormatModal button.btn.btn-success.pull-right {
+	background: var(--teal) !important;
+	border-color: var(--teal) !important;
+}
+
+body.skin2 #exportFormatModal button.btn.bg-orange.pull-left {
+	background: #a09b9b !important;
+	border-color: #a09b9b !important;
+}
+
+body.skin2 .bg-red-transparent-5 {
+	background: #F04438;
+	border-color: #F04438;
+}
+
+body.skin2 .bg-red-transparent-5:hover {
+	background: #f04438b8;
+}
+
+body.skin2 .moneymarkit .broken-save-btn button.bg-orange.btn:hover {
+	background-color: #637387 !important;
+}
+
+body.skin2 tr.inFocus .tooltip-new.tooltip-table {
+	color: var(--white);
+}
+
+body.skin2 .chf-moneymarkit .tooltip-new .tooltiptext table.table.table-responsive.tooltip-table th,
+body.skin2 .chf-moneymarkit .tooltip-new .tooltiptext table.table.table-responsive.tooltip-table td {
+	color: var(--white) !important;
+}
+
+body.skin2 .nav-side-menu li .fa-plus,
+body.skin2 .nav-side-menu li .fa-minus {
+	color: #252525 !important;
+}
+
+body.skin2 .nav-side-menu li.active a {
+	color: var(--white) !important;
+}
+
+body.skin2 .chf-moneymarkit.full-height #default-tab-3 table td button.btn.disabled {
+	background: #a09b9b !important;
+}
+
+body.skin2 .moneymarkit label,
+body.skin2 .moneymarkit .lead {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .clickswitch .outer span.off-btn,
+body.skin2 .clickswitch .outer span.on-btn {
+	color: var(--white);
+}
+
+body.skin2 span.irs-from,
+body.skin2 span.irs-min,
+body.skin2 span.irs-max,
+body.skin2 span.irs-to {
+	background: #404f63 !important;
+	color: var(--white) !important;
+}
+
+body.skin2 hr {
+	border-top: 0.071rem solid rgba(0, 0, 0, 0.2);
+}
+
+body.skin2 .moneymarkit .spreadsheet-table .table th {
+	border: 0.071rem solid var(--lightgray) !important;
+}
+
+body.skin2 .search-pop span.irs-from,
+body.skin2 span.irs-min,
+body.skin2 .search-pop span.irs-max,
+body.skin2 .search-pop span.irs-to {
+	background: #404f63 !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .search-pop .irs--flat .irs-min,
+.search-pop .irs--flat .irs-max {
+	background: #404f63 !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .moneymarkit table.table {
+	color: var(--lightblack);
+}
+
+body.skin2 .moneymarkit .badge-default {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+body.skin2 .label.label-warning {
+	background: #404f63 !important;
+}
+
+body.skin2 .moneymarkit #default-tab-2 th.success {
+	color: var(--metal) !important;
+	background: #E3E4EA !important;
+}
+
+body.skin2 .moneymarkit #default-tab-2 th.danger {
+	color: var(--metal) !important;
+	background: #E3E4EA !important;
+}
+
+body.skin2 .moneymarkit #default-tab-2 th.danger,
+body.skin2 .moneymarkit #default-tab-2 td.bg-red-transparent-1 {
+	border-left: 0.071rem solid var(--whitergba15) !important;
+}
+
+body.skin2 .moneymarkit #default-tab-2 .bg-green-transparent-1 {
+	background-color:  #FCFCFD !important;
+	color: var(--metal) !important;
+}
+
+body.skin2 .moneymarkit #default-tab-2 .bg-red-transparent-1 {
+	background-color: #FCFCFD !important;
+	color: var(--metal) !important;
+}
+
+body.skin2 .moneymarkit #default-tab-2 .bg-green-transparent-2 {
+	background: #FFFFFF !important;
+	border: 1px solid #D0D5DD !important;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05) !important;
+	color: var(--metal) !important;
+}
+
+body.skin2 .moneymarkit #default-tab-2 .bg-red-transparent-2 {
+	background: #FFFFFF !important;
+	border: 1px solid #D0D5DD !important;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05) !important;
+	color: var(--metal) !important;
+}
+
+body.skin2 .timedout-request .table td {
+	color: var(--lightblack);
+}
+
+body.skin2 .fc-unthemed .fc-content,
+body.skin2 .fc-unthemed .fc-divider,
+body.skin2 .fc-unthemed .fc-list-heading td,
+body.skin2 .fc-unthemed .fc-list-view,
+body.skin2 .fc-unthemed .fc-popover,
+body.skin2 .fc-unthemed .fc-row,
+body.skin2 .fc-unthemed tbody,
+body.skin2 .fc-unthemed td,
+body.skin2 .fc-unthemed th,
+body.skin2 .fc-unthemed thead {
+	border-color: rgba(0, 0, 0, 0.1);
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .fc-day-number {
+	color: var(--lightblack);
+}
+
+body.skin2 .fc-day-grid-event .fc-content,
+body.skin2 .holiday-lines {
+	color: var(--white) !important;
+	background: #9b2135;
+}
+
+body.skin2 .fc-day-grid-event.fc-read-more .fc-content {
+	background: transparent;
+	color: var(--lightblack);
+}
+
+body.skin2 .trades-today .table thead th,
+body.skin2 .trades-today .table>thead>tr>th,
+.body.skin2 .trades-today .table tbody td {
+	border: 0 !important;
+	background-color: #242c60;
+	color: #fff !important;
+}
+
+body.skin2 .tradingpartnerlist table td {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .tradingpartnerdetail label.file-upload__label,
+body.skin2 .btn-orange {
+	background: var(--teal) !important;
+}
+
+body.skin2 .tradingpartnerdetail label.file-upload__label:hover,
+body.skin2 .btn-orange:hover {
+	background: var(--teal) !important;
+	border-color: var(--teal) !important;
+}
+
+body.skin2 .tradingpartnerdetail .panel-body,
+body.skin2 .tradingpartnerdetail .instpanel .panel-body tbody td {
+	color: var(--lightblack);
+}
+
+body.skin2 .tradingpartnerdetail .panel-body,
+body.skin2 .tradingpartnerdetail .instpanel .panel-body tbody td:nth-child(4) {
+	word-break: break-all;
+}
+
+body.skin2 .instpanel h4 {
+	color: var(--lightblack);
+}
+
+body.skin2 .bid-modal button.btn.btn-submit.btn-success {
+	background-color: var(--teal) !important;
+	border: var(--teal) !important;
+}
+
+body.skin2 .moneymarkit-modal.moneymarkit-modal-trade .moneymarkit .tab-content {
+	background-color: transparent !important;
+}
+
+body.skin2 .page-header {
+	color: var(--lightblack);
+}
+
+body.skin2 .trades-today .table>tbody>tr:nth-child(even),
+body.skin2 .repo-trades-today .table>tbody>tr:nth-child(even) {
+	background: #FCFCFD;
+}
+
+body.skin2 .trades-today .table>tbody>tr:nth-child(odd),
+body.skin2 .repo-trades-today .table>tbody>tr:nth-child(odd) {
+	background: #F8F9FC;
+}
+
+body.skin2 .currencySettings-div td {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .contentside .chf-moneymarkit.full-height.full-height-width table i.openclose.fa-chevron-right {
+	color: var(--lightblack);
+}
+
+body.skin2 #profile-setting.profile-popup .modal-body {
+	background: var(--blueishwhite) !important;
+	padding-bottom: 0px;
+}
+
+body.skin2 #profile-setting.profile-popup .data-row--left,
+body.skin2 #profile-setting.profile-popup .data-row--left span,
+body.skin2 #profile-setting.profile-popup #AnW p.label-txt-pop,
+body.skin2 #profile-setting.profile-popup #AnW .tires-row span,
+body.skin2 #profile-setting.profile-popup .display-head,
+body.skin2 #profile-setting.profile-popup .row.data-row-pop .text-white {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .profile-popup .modal-body:last-child {
+	border: none !important;
+}
+
+body.skin2 .profile-popup .tab button:last-child {
+	border-bottom: none;
+}
+
+body.skin2 .fc-read-more span.fc-title {
+	color: var(--lightblack);
+}
+
+body.skin2 .moneymarkit #default-tab-2 .btn.btn-warning {
+	background: var(--navy) !important;
+}
+
+body.skin2 .moneymarkit #default-tab-2 .btn.btn-warning:hover,
+body.skin2 .moneymarkit #default-tab-2 .btn.btn-warning:focus {
+	background: #637387 !important;
+	border-color: #637387 !important;
+}
+
+body.skin2 .note-content span.bg-green-new {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .irs-bar {
+	border-top: 0.071rem solid #404f63 !important;
+	border-bottom: 0.071rem solid #404f63 !important;
+	background: #404f63 !important;
+}
+
+body.skin2 #activeTieringConfirmation .modal-confirm .btn-danger {
+	background: var(--teal) !important;
+}
+
+body.skin2 .moneymarkit .badge-primary {
+	background: #242c60 !important;
+}
+
+body.skin2 .counter-party .note.note-secondary,
+body.skin2 .counter-party .note.note-default {
+	background-color: transparent;
+	color: var(--lightblack);
+}
+
+body.skin2 .chf-moneymarkit .table td span.badge.counter {
+	background-color: rgba(136, 92, 92, 0.25);
+	color: var(--white);
+}
+
+body.skin2 .trading_partner_modal .instpanel h4 {
+	color: #252525;
+}
+
+.roll_trade_btn_close {
+	background-color: #a1a1a1;
+	color: var(--white);
+	border: 0.071rem solid #a1a1a1;
+}
+
+body.skin2 .roll_trade_btn {
+	background-color: var(--teal);
+	color: var(--white);
+	border: 0.071rem solid var(--teal);
+}
+
+body.skin2 #maturing-transations-table .table-header-bg tr {
+	background-color: #242C60 !important;
+	border-bottom: 0.071rem solid #242C60;
+}
+
+body.skin2 #maturing-transations-table .table-header-bg tr th {
+	color: var(--white) !important;
+}
+
+body.skin2 .im-red {
+	color: var(--teal);
+}
+
+body.skin2 .trading_partner_modal .instpanel th {
+	color: #252525;
+}
+
+body.skin2 .trading_partner_modal .text-light,
+body.skin2 .trading_partner_modal .text-white {
+	color: #252525 !important;
+}
+
+body.skin2 .trading_partner_modal .instpanel .panel-body {
+	color: #252525 !important;
+}
+
+body.skin2 .trading_partner_modal .instpanel .panel-body .table thead th {
+	color: #252525 !important;
+}
+
+body.skin2 .media-not-sec .news-content-div .col-xl-10 {
+	background: var(--white) !important;
+	border: 0.071rem solid var(--pepple) !important;
+}
+
+body.skin2 .mark {
+	background-color: var(--white) !important;
+	color: var(--lightblack) !important;
+}
+
+.media-not-sec .news-content-div .col-xl-2 {
+	background: #2a2a2a !important;
+}
+
+body.skin2 .trading_partner_modal.trading_partner_view .modal-lg .modal-content button.close,
+body.skin2 button.check-currency,
+body.skin2 .users-div .ccy-selector span .close {
+	color: #252525 !important;
+}
+
+body.skin2 .trading_partner_modal .instpanel .panel-body td {
+	color: #252525 !important;
+}
+
+body.skin2 .holidaycontent .holiday-left-side button.btn-default.selected,
+body.skin2 .holidaycontent .holiday-left-side .quicklinks-panel button.btn-default.selected {
+	background: var(--teal) !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .holiday-right-side .fc .fc-col-header-cell-cushion {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .holiday-right-side .panel-body .fc-h-event {
+	background: var(--teal) !important;
+	border: 0.071rem solid var(--teal) !important;
+}
+
+body.skin2 .holidaycontent .holiday-left-side button.btn-default.selected:hover,
+body.skin2 .holidaycontent .holiday-left-side .quicklinks-panel button.btn-default.selected:hover {
+	background: var(--teal) !important;
+}
+
+body.skin2 .fc .fc-daygrid-more-link,
+body.skin2 .fc .fc-daygrid-more-link:hover,
+body.skin2 .fc .fc-daygrid-day-number,
+body.skin2 .fc .fc-daygrid-day-number:hover {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .holiday-right-side .fc-theme-standard td,
+body.skin2 .holiday-right-side .fc-theme-standard th,
+body.skin2 .holiday-right-side .fc-theme-standard .fc-scrollgrid {
+	border: 0.071rem solid #dee2e6;
+}
+
+body.skin2 .note {
+	border-left: none !important;
+}
+
+body.skin2 .holiday-head-div .currency-div {
+	background-color: transparent !important;
+}
+
+body.skin2 .holidaycontent .holiday-left-side button.btn-default,
+body.skin2 .holiday-left-side .quicklinks-panel.panel .panel-body button.btn-default {
+	background: var(--white) !important;
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .holidaycontent .holiday-left-side button.btn-default:hover,
+body.skin2 .holiday-left-side .quicklinks-panel.panel .panel-body button.btn-default:hover {
+	background-color: #929090 !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .counter-party #default-tab-2 .note.note-default {
+	background: transparent !important;
+	color: var(--lightblack);
+}
+
+body.skin2 .news-arrow i {
+	color: var(--lightblack);
+}
+
+body.skin2 .news-arrow i {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .table-striped>tbody>tr:nth-child(odd)>td,
+body.skin2 .table-striped>tbody>tr:nth-child(odd)>th {
+	background: var(--whitergba25);
+}
+
+body.skin2 .contactus-modal>.row .col-md-4 {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 .contactus-modal .list-group-item.active {
+	background-color: #048b70 !important;
+	border-color: rgba(255, 255, 255, 0.5);
+}
+
+body.skin2 .icon-on-sound {
+	color: var(--darkgray);
+}
+
+body.skin2 .modal-confirm .icon-box {
+	border: 0.214rem solid var(--teal) !important;
+}
+
+body.skin1 .modal-confirm .icon-box {
+	border: 0.143rem solid var(--orangered);
+}
+
+body.skin2 .modal-confirm .icon-box i {
+	color: var(--teal);
+}
+
+body.skin2 #logoutConfirmation .modal-footer .btn-danger {
+	background: var(--teal) !important;
+	border-color: var(--teal) !important;
+}
+
+body.skin2 #previousAllMyQuotes .btn-primary.btn {
+	background-color: var(--teal) !important;
+	border-color: var(--teal) !important;
+}
+
+body.skin2 .sound-on-off-icon {
+	border: 0.143rem solid var(--darkgray);
+}
+
+body.skin2 .contactus-modal .list-group-item {
+	background-color: var(--teal) !important;
+	border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+body.skin2 .tire-range-btn {
+	background: var(--teal) !important;
+	border-color: var(--teal) !important;
+}
+
+body.skin2 .contentside .btn-default:hover {
+	background: #929090 !important;
+}
+
+body.skin2 .sidenav-modal .modal-body a.text-orange:hover {
+	color: var(--teal) !important;
+}
+
+body.skin2 h1 small {
+	color: var(--lightblack);
+}
+
+body.skin2 .rfq-btn-new {
+	color: var(--white) !important;
+}
+
+body.skin2 #selectBroken .mydp .selection,
+body.skin2 #selectBroken .selection.ng-untouched.ng-pristine.ng-valid.ng-star-inserted,
+body.skin2 #selectBroken .btnpicker.btnpickerenabled,
+body.skin2 #selectBroken .btnclear.btnclearenabled.ng-star-inserted {
+	background-color: var(--navy) !important;
+	color: var(--white) !important;
+	border-color: var(--navy) !important;
+}
+
+
+body.skin2 .table-div table {
+	background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+body.skin2 .table-div table td {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .chf-moneymarkit-table th.white-back {
+	background: #a0a0a0 !important;
+}
+
+body.skin2 .broken-dates b,
+body.skin2 .broken-slider b {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .holidays-row .panel-body .table td input[type="text"] {
+	color: var(--lightblack) !important;
+	border: 0.071rem solid var(--lightblack) !important;
+}
+
+body.skin2 .holidays-row .panel-body .table td input[type="text"]:focus {
+	border: 0.071rem solid var(--lightblack) !important;
+}
+
+body.skin2 .chf-moneymarkit .table td.f-s-20 button.btn.btn-default {
+	background: #a09b9b !important;
+	color: var(--white);
+}
+
+body.skin2 .trading_partner_view .instpanel {
+	background-color: #dedede;
+}
+
+body.skin2 .trading_partner_modal.trading_partner_view .modal-lg .modal-content {
+	background-color: var(--white) !important;
+}
+
+body.skin2 .media-not-sec .panels p {
+	background: #a09b9b !important;
+}
+
+body.skin2 .chf-moneymarkit #default-tab-2 table td button.btn.disabled {
+	background: #a09b9b !important;
+	color: var(--white);
+}
+
+body.skin2 .chf-moneymarkit .table td.f-s-20 button.btn.btn-success.btn-default {
+	background: #0f6e32 !important;
+	border-color: transparent !important;
+}
+
+body.skin3 .chf-moneymarkit .table td.f-s-20 button.btn.btn-success.btn-default {
+	background: rgba(4, 193, 66, 0.5) !important;
+	border-color: transparent !important;
+}
+
+body.skin2 .chf-moneymarkit .table td.f-s-20 button.btn.btn-danger,
+body.skin3 .chf-moneymarkit .table td.f-s-20 button.btn.btn-danger {
+	color: var(--white) !important;
+	background-color: #404f63 !important;
+	border-color: #404f6330 !important;
+}
+
+body.skin2 .chf-moneymarkit-table .content-div-right .table td {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .tradingpartnerlist .instpanel {
+	background: var(--white) !important;
+	box-shadow: 0px 0.214rem 0.429rem 0px var(--lightgray);
+}
+
+body.skin2 .irs--flat .irs-from,
+body.skin2 .irs--flat .irs-to,
+body.skin2 .irs--flat .irs-single {
+	background-color: #404f63 !important;
+}
+
+body.skin2 .holidaycontent .panel-heading {
+	background: #242c60 !important;
+}
+
+body.skin2 .holiday-right-side h2.fc-toolbar-title {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .green-btn-confirm {
+	background-color: var(--teal) !important;
+	border-color: var(--teal) !important;
+	color: var(--white) !important;
+}
+
+body.skin2 li.previous-trade-text {
+	background-color: var(--teal) !important;
+	font-style: italic;
+	color: #ffffff;
+}
+
+body.skin2 .contentside .request-forquote .highlights-tr .btn-default.btn-success {
+	background: #ECFDF3 !important;
+	border: 0.071rem solid #12B76A !important;
+	color: #667085 !important;
+}
+
+
+body.skin2 .contentside .request-forquote .highlights-tr .btn-default.btn-danger {
+	background: #FEF3F2 !important;
+	border: 0.071rem solid #F04438 !important;
+	color: #667085 !important;
+}
+
+body.skin2 .contentside .request-forquote .highlights-tr .btn-default.btn-warning {
+	background: #F8F9FC !important;
+	border: 0.071rem solid #4E5BA6 !important;
+	color: #667085 !important;
+}
+
+body.skin2 .moneymarkit .badge-danger {
+	background: var(--teal) !important;
+}
+
+body.skin2 .news-arrow i.fa-plus {
+	color: var(--white) !important;
+}
+
+body.skin2 .chf-moneymarkit .table td.popup:hover>.f-s-12 {
+	color: var(--white) !important;
+}
+
+body.skin2 .media-not-sec i.media-background-im {
+	background-image: url("../../assets/img/icon/broadcast-dark.svg") !important;
+}
+
+body.skin2 .media-not-sec i.media-background-mx {
+	background-image: url("../../assets/img/icon/thougth-exchange-black.svg") !important;
+}
+
+body.skin2 .media-not-sec i.media-acco:after {
+	background: var(--lightblack) !important;
+}
+
+body.skin2 .contentside .holidaycontent .holiday-left-side .quicklinks-panel button.btn-default:hover {
+	background-color: #929090 !important;
+	color: var(--white) !important;
+}
+
+/***3 oct 2019 start***/
+
+body.skin2 .nav-side-menu .sidebar-contact:hover>a {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .nav-side-menu .sidebar-contact input.search_input {
+	background: var(--white) !important;
+	color: var(--darkgray) !important;
+	border: 0.071rem solid #D0D5DD;
+}
+
+body.skin2 .nav-side-menu .sidebar-contact input.search_input::placeholder {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .nav-side-menu {
+	background: var(--white);
+	border-right: 0.25px solid var(--pepple) !important;
+}
+
+body.skin2 .nav-side-menu li a {
+	color: #475467 !important;
+}
+
+body.skin2 .nav-side-menu .sidebar-contact:hover>ul li a {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .nav-side-menu .sidebar-contact ul li:hover a {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .nav-side-menu .menu-list .menu-content .sidebar-contact:hover>ul li .online-contact-div a span {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .nav-side-menu .menu-list .menu-content .sidebar-contact>ul li:hover .online-contact-div a span {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .nav-side-menu .badge,
+body.skin2 .nav-side-menu .trade-badge {
+	background: var(--teal) !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .nav-side-menu .currencies-tab>li.active {
+	background-color: #242c60 !important;
+	color: var(--white);
+}
+
+body.skin2 .nav-side-menu .currencies-tab>li.active img, body.skin2 .nav-side-menu .single-product.active img {
+	filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(125%) hue-rotate(215deg) brightness(116%) contrast(100%);
+}
+
+body.skin2 .nav-side-menu .sub-menu.admin-submenu li.active a {
+	color: var(--white) !important;
+}
+
+body.skin2 .shortterm-back {
+	color: var(--metal);
+}
+
+body.skin2 .midterm-back {
+	color: var(--metal);
+}
+
+body.skin2 .longterm-back {
+	color: var(--metal);
+}
+
+body.skin2 .currency-div label {
+	color: var(--lightblack) !important;
+}
+
+.holiday-left-side button.btn-default {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .moneymarkit .nav-tabs a.nav-link,
+body.skin2 .level-control .nav-tabs a.nav-link {
+	color: rgba(36, 44, 96, 0.6) !important;
+}
+
+body.skin2 .contentside .request-forquote .highlights-tr .btn-default {
+	background: transparent !important;
+	color: #667085 !important;
+	border: 0.071rem solid #D0D5DD !important;
+}
+
+body.skin2 .reloadSingle {
+	background-color: var(--teal) !important;
+}
+
+body.skin3 .reloadSingle {
+	background-color: #0457a7 !important;
+}
+
+body.skin4 .reloadSingle {
+	background-color: var(--lightpink) !important;
+}
+
+body.skin2 .moneymarkit .nav-tabs a.nav-link:hover {
+	color: #242C60 !important;
+	border-bottom: 0.071rem solid #242C60 !important;
+}
+
+body.skin2 .users-div .interactive.ccy-selector.widget.widget-stats.bg-orange {
+	background-color: var(--teal) !important;
+}
+
+.skin2 .header.navbar-default {
+	background-color: var(--white);
+	border-bottom: 0.25px solid var(--pepple);
+}
+
+body.skin2 .download-temp-ico i {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 .sidebar-contact ul li i.fa.chat img.chaticon-main {
+	display: block;
+}
+
+body.skin2 img.initial-price-tag.skin1-img {
+	display: none;
+}
+
+body.skin2 .sidebar-contact ul li i.fa.chat img.chaticon-skin2 {
+	display: block !important;
+	top: 0.429rem !important;
+}
+
+body.skin2 .timeout-content-side .timer-td .green-text {
+	color: #99a7a4;
+}
+
+body.skin2 .timer-td .green-text,
+body.skin2 .trade-status .green-text {
+	color: var(--teal) !important;
+}
+
+body.skin2 .contentside .news-arrow i.fas.fa-download {
+	color: var(--white) !important;
+}
+
+body.skin2 .currencySelector .widget.widget-stats.bg-grey-darker {
+	background-color: var(--blueishwhite) !important;
+	color: var(--lightblack);
+}
+
+body.skin2 .currencySelector .widget-stats .stats-info .bid-offer-div {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .users-div .interactive.ccy-selector.widget.widget-stats.bg-orange .bid-offer-div {
+	color: var(--white) !important;
+}
+
+body.skin2 .chf-moneymarkit .nav-tabs .nav-link {
+	color: rgba(36, 44, 96, 0.6) !important;
+}
+
+body.skin2 .chf-moneymarkit .nav-tabs .nav-link.active,
+body.skin2 .chf-moneymarkit .nav-tabs .nav-link.active:hover {
+	color: #242C60 !important;
+	border-bottom: 0.143rem solid #242C60;
+	background: transparent;
+}
+
+body.skin2 .plus-select {
+	color: rgba(36, 44, 96, 0.6) !important;
+}
+
+body.skin2 .moneymarkit-modal.moneymarkit-modal-trade .moneymarkit .trades-today {
+	background-color: var(--white) !important;
+}
+
+body.skin2 .custom-pagination {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .moneymarkit-modal .moneymarkit,
+body.skin2 .repo-counterparty .table tbody td {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .pagination-next span,
+body.skin2 .pagination-previous span {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .mmsetting-modal .moneymarkit .panel {
+	background-color: transparent !important;
+}
+
+body.skin2 .chf-moneymarkit .nav-link.active .plus-select-div .plus-select {
+	background-image: url(../../assets/img/icon/down-arrow-black.svg);
+}
+
+body.skin2 .chf-moneymarkit .nav-link.active .plus-select-div .plus-select:hover {
+	background-image: url(../../assets/img/icon/down-arrow.svg);
+	color: var(--blackishblack) !important;
+}
+
+body.skin2 .nav-side-menu .btn-warning.btn {
+	background-color: var(--navy) !important;
+	border: var(--navy) !important;
+}
+
+body.skin2 .nav-side-menu .btn-warning.btn:hover {
+	background-color: #637387 !important;
+}
+
+body.skin2 .navbar-nav .network-link a:hover {
+	color: var(--teal) !important;
+}
+
+body.skin3 .moneymarkit .nav-tabs a.nav-link,
+body.skin3 .notification-tabs .notification-banner-tabs .nav-link,
+body.skin3 .level-control .nav-tabs a.nav-link {
+	background-color: #354e65;
+}
+
+body.skin3 .contact-icongreen {
+	display: block !important;
+}
+
+body.skin3 .contact-iconred,
+body.skin3 .contact-iconblue {
+	display: none;
+}
+
+body.skin3 .request-forquote .panel-request-forquote {
+	background-color: #283748 !important;
+	box-shadow: 0.071rem 0.071rem 0.643rem 0.071rem #1d2a3a;
+}
+
+body.skin3 .moneymarkit-modal .moneymarkit .nav-tabs a.nav-link.active,
+body.skin3 .moneymarkit-modal .moneymarkit .nav-tabs .nav-items:hover .nav-link,
+body.skin3 .moneymarkit-modal .moneymarkit .nav-tabs .nav-items:focus .nav-link {
+	background: var(--white) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin3 .network-link .text-orange,
+body.skin3 .network-link .text-orange:hover {
+	color: var(--white) !important;
+}
+
+body.skin3 .calender-row button.btn.btn-success.bold.active {
+	background-color: var(--cyan) !important;
+	border-color: var(--cyan) !important;
+	color: rgba(255, 255, 255, 0.9) !important;
+}
+
+body.skin3 .changepass-form i.pull-right {
+	color: var(--white) !important;
+}
+
+body.skin3 .calender-row button.btn.btn-success.bold {
+	background-color: #0b6c8a !important;
+	border-color: #0b6c8a !important;
+	color: rgba(255, 255, 255, 0.45) !important;
+}
+
+body.skin3 .moneymarkit-modal .chf-moneymarkit .tab-content,
+body.skin3 .moneymarkit-modal .moneymarkit .tab-content {
+	background: rgb(72, 84, 95) !important;
+}
+
+body.skin3 .moneymarkit-modal.moneymarkit-modal-trade .modal-body .moneymarkit .row .tab-content,
+body.skin3 .user-level-trades {
+	background: rgb(2, 10, 20) !important;
+}
+
+body.skin3 .currencies-tab>li {
+	background: #283748 !important;
+}
+
+body.skin3 .moneymarkit-newsarrow,
+body.skin3 .search-div .search,
+body.skin3 .link-unlink-div {
+	background: #0457a7 !important;
+}
+
+body.skin3 .media-not-sec .news-content-div .col-xl-10 {
+	background: #354e65 !important;
+	border: #354e65 !important;
+}
+
+#credit-limit-table thead tr th {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+body.skin3 .nav-side-menu .btn-primary.btn:hover {
+	background-color: #649a09 !important;
+	border-color: #649a09 !important;
+}
+
+body.skin3 .chf-moneymarkit .tooltip-new .tooltiptext,
+body.skin3 .chf-moneymarkit .tooltip-new .tooltiptext table th,
+body.skin3 .tooltip-new .tooltiptext table td {
+	background-color: #0457a7 !important;
+}
+
+body.skin3 .chf-moneymarkit .tooltip-new .tooltiptext::after {
+	border-color: #0457a7 transparent transparent transparent !important;
+}
+
+body.skin3 .nav-side-menu .currencies-tab>li:hover,
+body.skin3 .nav-side-menu .currencies-tab>li:focus,
+body.skin3 .nav-side-menu .currencies-tab>li.active {
+	background: #354e65 !important;
+}
+
+body.skin3 .media-not-sec .news-content-div .col-xl-2 {
+	background: var(--purple) !important;
+}
+
+body.skin3 .request-forquote .table-basic td.mio-td span {
+	background: #43505e !important;
+}
+
+body.skin3 .contentside .chf-moneymarkit .col-12 .tab-pane .table tbody tr:nth-of-type(odd),
+body.skin3 .collateral-table tr:nth-child(odd) {
+	background-color: rgb(53, 78, 101) !important;
+}
+
+body.skin3 .currencySelector .widget.widget-stats.bg-grey-darker:hover {
+	background-color: rgba(44, 138, 228, 0.8) !important;
+}
+
+body.skin3 .nav-side-menu,
+body.skin3 .header {
+	background-color: #01294f !important;
+}
+
+body.skin3 table.header,
+body.skin3 .contentside .chf-moneymarkit .col-12 .tab-pane .show-cal table tbody tr:nth-of-type(odd),
+body.skin3 .contentside .chf-moneymarkit .col-12 .tab-pane .show-cal table thead tr:nth-of-type(odd) {
+	background-color: var(--white) !important;
+}
+
+body.skin3 .date-filter-box .mydp {
+	border: none;
+}
+
+body.skin3 {
+	background-color: #061c35 !important;
+}
+
+body.skin3 .bg-orange,
+body.skin3 .btn-warning {
+	background-color: var(--purple) !important;
+	border-color: var(--purple) !important;
+}
+
+body.skin3 .bg-orange {
+	background: var(--purple) !important;
+	border-color: var(--purple) !important;
+}
+
+body.skin3 .media-not-sec .accordion {
+	background-color: var(--purple);
+}
+
+body.skin3 .media-not-sec .panels p {
+	background: #01294f;
+}
+
+body.skin3 .chf-moneymarkit .tab-content,
+body.skin3 .moneymarkit .tab-content,
+body.skin3 .coming-soon {
+	background: rgba(119, 118, 118, 0.3) !important;
+}
+
+body.skin3 .moneymarkit-modal .chf-moneymarkit .tab-content,
+body.skin3 .moneymarkit-modal .moneymarkit .tab-content {
+	background: rgb(74, 86, 99) !important;
+}
+
+body.skin3 .panel-inverse>.panel-heading {
+	background: #01294f !important;
+}
+
+body.skin3 .chf-moneymarkit .nav-link.active,
+body.skin3 .chf-moneymarkit .nav-items:hover a,
+body.skin3 .moneymarkit .nav-tabs a.nav-link.active,
+body.skin3 .moneymarkit .nav-tabs .nav-items:hover .nav-link,
+body.skin3 .notification-tabs .nav-link.active,
+body.skin3 .level-control .nav-tabs a.nav-link.active {
+	background: var(--purple) !important;
+	color: var(--white);
+	border-color: var(--purple) !important;
+}
+
+body.skin3 td.bidActive {
+	color: var(--white) !important;
+	background: rgba(4, 193, 66, 0.5) !important;
+}
+
+body.skin3 td.offerActive {
+	color: var(--white) !important;
+	background: rgba(255, 53, 2, 0.5) !important;
+}
+
+body.skin3 tr.inFocus {
+	background: rgb(74, 87, 105) !important;
+}
+
+body.skin3 .note.note-secondary,
+body.skin3 .note.note-default {
+	background: #1d4061;
+}
+
+body.skin3 #profile-setting .modal-body {
+	background-color: rgba(6, 28, 53) !important;
+}
+
+body.skin3 .profile-popup .tab,
+body.skin3 .profile-popup .tab button {
+	background-color: var(--purple);
+}
+
+body.skin3 .profile-popup .tab button.active,
+body.skin3 .profile-popup .tab button:hover {
+	background-color: #6221a5;
+}
+
+body.skin3 .profile-popup .tire-range-btn {
+	background-color: var(--cyan) !important;
+	border-color: var(--cyan);
+}
+
+body.skin3 .profile-popup .tire-range-area,
+body.skin3 .profile-popup .change-new-pass {
+	background-color: #23446b;
+	border: 0.071rem solid #23446b;
+}
+
+body.skin3 .profile-popup .tire-range-area::placeholder {
+	color: var(--white) !important;
+}
+
+body.skin3 .profile-popup .btn.btn-defult.btn-green-save {
+	background-color: var(--cyan) !important;
+	border-color: var(--cyan);
+}
+
+body.skin3 .moneymarkit .badge.badge-warning,
+body.skin3 .label.label-warning {
+	background: var(--purple) !important;
+}
+
+body.skin3 .moneymarkit #default-tab-2 .btn.btn-warning {
+	background: var(--purple) !important;
+	border-color: var(--purple) !important;
+}
+
+body.skin3 .moneymarkit #default-tab-2 .btn.btn-warning:hover,
+body.skin3 .moneymarkit #default-tab-2 .btn.btn-warning:focus {
+	background: #631fab !important;
+	border-color: #631fab !important;
+}
+
+body.skin3 .moneymarkit #default-tab-2 th.success {
+	background: rgba(113, 175, 9, 0.8) !important;
+}
+
+body.skin3 .spreadsheet-table .bg-green-transparent-2 {
+	background-color: rgba(113, 175, 9, 0.4) !important;
+}
+
+body.skin3 .spreadsheet-table .bg-red-transparent-1 {
+	background-color: rgba(6, 192, 255, 0.1) !important;
+}
+
+body.skin3 .spreadsheet-table .bg-red-transparent-2 {
+	background-color: rgba(6, 192, 255, 0.2) !important;
+}
+
+body.skin3 .moneymarkit #default-tab-2 th.danger {
+	background: rgba(6, 192, 255, 0.5) !important;
+}
+
+body.skin3 .holidaycontent .panel-body {
+	background: rgba(119, 118, 118, 0.3) !important;
+}
+
+body.skin3 .holiday-left-side .quicklinks-panel button.btn-default {
+	background: rgba(119, 118, 118, 0.3) !important;
+}
+
+body.skin3 .fc-day-grid-event .fc-content,
+body.skin3 .holiday-lines {
+	color: var(--white) !important;
+	background: #631fab !important;
+}
+
+body.skin3 .fc-read-more span.fc-title {
+	color: var(--white);
+}
+
+body.skin3 .fc-day-grid-event.fc-read-more .fc-content {
+	background: transparent !important;
+}
+
+body.skin3 .tradingpartnerdetail label.file-upload__label:hover,
+body.skin3 .btn-orange:hover {
+	background: #631fab !important;
+	border-color: #631fab !important;
+}
+
+body.skin3 .tradingpartnerdetail label.file-upload__label,
+body.skin3 .btn-orange {
+	background: #631fab !important;
+}
+
+body.skin3 .clickswitch .outer {
+	background: linear-gradient(to right, #204550 42%, #06445d 49%, #104b65 100%, var(--smokeblack) 100%, #131111 100%) !important;
+	background: -webkit-linear-gradient(left, #204550 42%, #06445d 49%, #104b65 100%, var(--smokeblack) 100%, #131111 100%) !important;
+}
+
+body.skin3 .contentside,
+body.skin3 .user-level-setting>.tab-content {
+	background-color: #061c35 !important;
+}
+
+body.skin3 .text-orange {
+	color: var(--lime) !important;
+}
+
+body.skin3 .chf-moneymarkit .text-orange-lighter {
+	color: #9852e2 !important;
+}
+
+body.skin3 .sidebar-contact input.search_input {
+	background: #283748 !important;
+}
+
+/*skin3 css end*/
+body.skin2 .select2-container--default .select2-selection--multiple {
+	background: rgb(193, 193, 193) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .select2-container--default .select2-selection--multiple .select2-selection__choice {
+	background: #949292 !important;
+	border: #949292 !important;
+}
+
+body.skin2 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .rfq-items a.nav-link.tabs {
+	background: #a09b9b !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin3 .contentside .chf-moneymarkit .rfq-items.nav-items:hover>a.nav-link.tabs,
+body.skin3 .chf-moneymarkit .rfq-items a.nav-link.tabs.active {
+	background: #89939e !important;
+	color: var(--lightblack) !important;
+}
+
+.body-isChrome .skin1 .dropdown-menu .dropdown-menu-right {
+	position: absolute;
+	will-change: transform;
+	top: 0px;
+	left: 0px;
+	transform: translate3d(0px, 3.571rem, 0px);
+}
+
+body.skin2 .changepass-form input.change-new-pass {
+	background-color: var(--white) !important;
+	color: var(--darkgray);
+}
+
+body.skin2 .switchslider.round {
+	background-color: var(--lightgray);
+}
+
+body.skin2 .c-btn,
+body.skin2 textarea#referenceValue {
+	background: var(--white) !important;
+	color: #000000 !important;
+	border: 0.071rem solid #D0D5DD !important;
+	height: 2.714rem;
+}
+
+body.skin2 .btn.btn-defult.btn-green-save:hover,
+body.skin2 .btn.btn-defult.btn-green-save:focus {
+	background: #1e5ba5 !important;
+	border-color: #1e5ba5 !important;
+}
+
+body.skin2 .btn.btn-defult.btn-green-save {
+	background: var(--navy) !important;
+	border-color: var(--navy) !important;
+}
+
+body.skin2 .tabcontent input:checked+.slider {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 img.inslogo.inslogo-desk.white-logo {
+	display: none;
+}
+
+body.skin2 .network-link img.skin1-img {
+	display: none;
+}
+
+body.skin1 .chf-moneymarkit .nav-link.active,
+body.skin1 .chf-moneymarkit .nav-items:hover>a,
+body.skin1 .chf-moneymarkit .nav-items:focus>a {
+	color: var(--white);
+	border-bottom: 0.2rem solid #fff;
+	background-color: transparent;
+}
+
+body.skin3 .chf-moneymarkit .nav-link {
+	background-color: #354e65;
+}
+
+body.skin3 .contactus-modal>.row .col-md-4 {
+	background-color: var(--purple) !important;
+}
+
+body.skin3 .contactus-modal .list-group-item.active {
+	background-color: #6221a5 !important;
+	border-color: #6221a5;
+}
+
+body.skin3 .contactus-modal .list-group-item {
+	background-color: var(--purple) !important;
+	border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+body.skin2 #rolling-trade-settings tbody tr:nth-child(odd) {
+	background-color: rgba(93, 93, 93, 0.2) !important;
+}
+
+body.skin2 #rolling-trade-settings {
+	color: var(--darkgray) !important;
+	font-size: 1rem;
+}
+
+body.skin2 #rolling-trade-settings tbody tr td .p-right-btn {
+	background-color: var(--navy) !important;
+	border: 0.071rem solid var(--navy) !important;
+	color: var(--white);
+}
+
+body.skin2 .this-time-input,
+body.skin2 .this-time-input2 {
+	background-color: var(--white);
+	border: 0.071rem solid #c5c5c5;
+	color: var(--darkgray) !important;
+}
+
+body.skin2 #rolling-trade-settings tbody tr td,
+body.skin2 .chf-moneymarkit .request-forquote td {
+	border-bottom: none !important;
+}
+
+body.skin2 #rolling-trade-settings tbody tr td .p-right-btn2 {
+	background-color: var(--navy) !important;
+	border: 0.071rem solid var(--navy) !important;
+	color: var(--white);
+}
+
+body.skin2 .change-new-pass {
+	background-color: var(--white);
+	border: 0.071rem solid var(--lightgray);
+	color: var(--darkgray);
+}
+
+body.skin3 #rolling-trade-settings tbody tr:nth-child(odd) {
+	background-color: #354e65 !important;
+}
+
+body.skin3 #rolling-trade-settings tbody tr td .p-right-btn,
+body.skin3 #rolling-trade-settings tbody tr td .p-right-btn2 {
+	background-color: var(--cyan) !important;
+	border: 0.071rem solid var(--white) !important;
+}
+
+body.skin3 .this-time-input,
+body.skin3 .this-time-input2 {
+	background-color: var(--white) !important;
+	border: 0.071rem solid #061c35;
+	color: #354e65;
+}
+
+body.skin2 .contentside .request-forquote .highlights-tr select {
+	background: var(--blueishwhite) !important;
+	color: var(--lightblack) !important;
+}
+
+.skin2 .request-forquote a.btn.btn-success span,
+.skin2 .request-forquote a.btn.btn-danger span {
+	color: #667085 !important;
+}
+
+.skin3 .chf-moneymarkit .table tbody tr.highlights-tr td {
+	background-color: #354e65 !important;
+}
+
+.skin2 .selector.selectorarrow.selectorarrowleft table.header tbody tr td {
+	background-color: var(--white) !important;
+}
+
+body.skin1 .date-filter-box .btnpicker.btnpickerenabled {
+	color: var(--white);
+	background-color: #5c5c5c;
+	border-color: #5c5c5c !important;
+	border-radius: 0.286rem !important;
+	border-right: 0.071rem solid #5c5c5c !important;
+	position: relative;
+	left: 0px;
+}
+
+body.skin3 .date-filter-box .btnpicker.btnpickerenabled {
+	color: var(--white);
+	background-color: #5c5c5c !important;
+	border-color: #5c5c5c !important;
+	border-radius: 0.286rem !important;
+	border-right: 0.071rem solid #5c5c5c !important;
+	position: relative;
+	left: 0px;
+}
+
+body.skin1 .date-filter-box .mydp .btnclear {
+	background: #5c5c5c;
+}
+
+body.skin3 .date-filter-box .mydp .btnclear {
+	background: #5c5c5c;
+}
+
+body.skin2 .ticketmodal table .form-control,
+body.skin2 .ticketmodal table .form-control:hover,
+body.skin2 .ticketmodal table .form-control:focus {
+	background: var(--whiteishgray) !important;
+	font-size: 1rem;
+	border: none;
+	box-shadow: none;
+	color: var(--lightblack);
+}
+
+body.skin2 .ticketmodal .mio-td span {
+	background: var(--navy) !important;
+	border-left: 0.071rem solid var(--navy) !important;
+	color: var(--white) !important;
+}
+
+body.skin2 #new-feature-table tbody tr td,
+body.skin2 #new-feature-table tbody tr td a,
+body.skin2 #new-feature-table tbody tr td button {
+	color: var(--lightblack);
+}
+
+body.skin2 #credit-limit-table tr td {
+	color: var(--white) !important;
+	background-color: transparent !important;
+}
+
+body.skin2 #credit-limit-table thead tr th {
+	color: var(--white) !important;
+	background-color: transparent !important;
+}
+
+body.skin2 .view-btn {
+	background: var(--teal) !important;
+	color: var(--white);
+}
+
+body.skin2 .ticket-header span,
+body.skin2 .ticketmodal .ticket-header h4,
+body.skin2 .ticketmodal table.table.w-100 td {
+	color: var(--lightblack) !important;
+	border-color: var(--pepple) !important;
+}
+
+body.skin2 .nav-items .nav-link .badge-warning,
+body.skin2 .nav-item .nav-link .badge-warning {
+	color: var(--white) !important;
+	background-color: var(--teal) !important;
+}
+
+body.skin2 .rfp-btn-enable {
+	background-color: var(--teal) !important;
+	border: 0.071rem solid var(--teal) !important;
+}
+
+body.skin2 .trading-website-link {
+	color: var(--teal) !important;
+	text-decoration: none;
+}
+
+body.skin2 .ticketmodal table.table.w-100 {
+	background: var(--white);
+}
+
+body.skin2 .ticketmodal {
+	background: var(--white);
+}
+
+body.skin2 .ticketmodal .ticket-header {
+	background-color: var(--white);
+	border-bottom: 1px solid var(--pepple);
+}
+
+body.skin2 select.agreement-select option {
+	color: var(--lightblack);
+}
+
+body.skin2 a.filter-btn .text-white,
+body.skin2 .n-entries select {
+	color: #404f63 !important;
+}
+
+body.skin2 .date-filter-box .mydp {
+	border: 0.071rem solid #a09b9b !important;
+	position: relative;
+	top: 0.143rem;
+	height: 2rem;
+}
+
+body.skin2 .form-control.date-filter-box,
+body.skin2 .form-control.date-filter-box:focus {
+	background-color: var(--white) !important;
+	background-image: url("../../assets/img/icon/calendar-black.svg");
+	color: var(--darkgray);
+	border-color: var(--white) !important;
+	height: 1.929rem !important;
+}
+
+body.skin2 .date-filter-box .mydp .selectiongroup {
+	background-color: #a09b9b !important;
+	height: 2rem;
+}
+
+body.skin2 #credit-limit-table tr.second-heading-counterparty td {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .filter-box label {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .date-filter-box .mydp .icon-mydpcalendar,
+body.skin2 .date-filter-box .mydp .icon-mydpremove {
+	font-size: 1rem;
+	position: relative;
+	top: 0px;
+}
+
+body.skin4 .bid-modal .ngx-slider .ngx-slider-pointer {
+	background-color: var(--lightpink) !important;
+}
+
+/*Black theme layout*/
+
+body.skin4 .moneymarkit .nav-tabs a.nav-link,
+body.skin4 .notification-tabs .notification-banner-tabs .nav-link,
+body.skin4 .level-control .nav-tabs a.nav-link {
+	background-color: #4e4e5a !important;
+}
+
+body.skin4 .term-range-slider .ngx-slider .ngx-slider-pointer,
+body.skin4 .term-range-slider .ngx-slider .ngx-slider-selection {
+	background-color: var(--lightpink) !important;
+}
+
+body.skin4 .contact-icongreen {
+	display: block !important;
+}
+
+body.skin4 .contact-iconred,
+body.skin4 .contact-iconblue {
+	display: none;
+}
+
+body.skin4 .request-forquote .panel-request-forquote {
+	background-color: #21212b !important;
+}
+
+body.skin4 .moneymarkit-modal .moneymarkit .nav-tabs a.nav-link.active,
+body.skin4 .moneymarkit-modal .moneymarkit .nav-tabs .nav-items:hover .nav-link,
+body.skin4 .moneymarkit-modal .moneymarkit .nav-tabs .nav-items:focus .nav-link {
+	background: var(--white) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin4 .network-link .text-orange {
+	color: var(--white) !important;
+}
+
+body.skin4 .calender-row button.btn.btn-success.bold.active {
+	background-color: var(--cyan) !important;
+	border-color: var(--cyan) !important;
+	color: rgba(255, 255, 255, 0.9) !important;
+}
+
+body.skin4 .calender-row button.btn.btn-success.bold {
+	background-color: #0b6c8a !important;
+	border-color: #0b6c8a !important;
+	color: rgba(255, 255, 255, 0.45) !important;
+}
+
+body.skin4 .moneymarkit-modal .chf-moneymarkit .tab-content,
+body.skin4 .moneymarkit-modal .moneymarkit .tab-content {
+	background: rgb(72, 84, 95) !important;
+}
+
+body.skin4 .moneymarkit-modal.moneymarkit-modal-trade .modal-body .moneymarkit .row .tab-content {
+	background: rgb(2, 10, 20) !important;
+}
+
+body.skin4 .currencies-tab>li {
+	background: #4e4e5a !important;
+}
+
+body.skin4 .moneymarkit-newsarrow {
+	background: #0457a7 !important;
+}
+
+body.skin4 .chf-moneymarkit .tooltip-new .tooltiptext,
+body.skin4 .chf-moneymarkit .tooltip-new .tooltiptext table th,
+body.skin4 .tooltip-new .tooltiptext table td {
+	background-color: #0457a7 !important;
+}
+
+body.skin4 .chf-moneymarkit .tooltip-new .tooltiptext::after {
+	border-color: #0457a7 transparent transparent transparent !important;
+}
+
+body.skin4 .nav-side-menu .currencies-tab>li:hover,
+body.skin4 .nav-side-menu .currencies-tab>li:focus,
+body.skin4 .nav-side-menu .currencies-tab>li.active {
+	background: #3a3a4a !important;
+}
+
+body.skin4 .media-not-sec .news-content-div .col-xl-2 {
+	background: var(--purple) !important;
+}
+
+body.skin4 .request-forquote .table-basic td.mio-td span {
+	background: #43505e !important;
+}
+
+body.skin4 .contentside .chf-moneymarkit .col-12 .tab-pane .table tbody tr:nth-of-type(odd),
+body.skin4 .collateral-table tr:nth-child(odd) {
+	background-color: #21212b !important;
+}
+
+body.skin4 .chf-moneymarkit .table td {
+	border-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+body.skin4 .previousRequest {
+	color: rgba(255, 255, 255, 0.3) !important;
+}
+
+body.skin4 .bg-red-transparent-5 {
+	background-color: rgba(255, 53, 2, 0.5) !important;
+}
+
+body.skin4 .note-content.table tbody tr:nth-of-type(2n+1) {
+	background: #21212b !important;
+}
+
+body.skin4 .currencySelector .widget.widget-stats.bg-grey-darker:hover {
+	background-color: var(--lightpink) !important;
+}
+
+body.skin4 .nav-side-menu,
+body.skin4 .header {
+	background-color: var(--blackishblack) !important;
+}
+
+body.skin4 table.header,
+body.skin4 .contentside .chf-moneymarkit .col-12 .tab-pane .show-cal table tbody tr:nth-of-type(odd),
+body.skin4 .contentside .chf-moneymarkit .col-12 .tab-pane .show-cal table thead tr:nth-of-type(odd) {
+	background-color: var(--white) !important;
+}
+
+body.skin4 .date-filter-box .mydp {
+	border: none;
+}
+
+body.skin4 {
+	background-color: #272731 !important;
+}
+
+body.skin4 .bg-orange {
+	background-color: var(--lightpink) !important;
+	border-color: var(--lightpink) !important;
+}
+
+body.skin4 .note-content .table tbody tr:nth-of-type(2n+1) {
+	background: #22222c !important;
+}
+
+body.skin4 .bg-orange {
+	background: var(--lightpink) !important;
+	border-color: var(--lightpink) !important;
+}
+
+body.skin4 .media-not-sec.left-div button.news-arrow {
+	background-color: transparent !important;
+}
+
+body.skin4 .chf-moneymarkit-table a.btn.btn-success.mr-0 {
+	background-color: var(--skyblue) !important;
+	border-color: var(--skyblue);
+}
+
+body.skin4 .media-not-sec .accordion {
+	background-color: var(--skyblue);
+}
+
+body.skin4 .bg-grey-darker {
+	background-color: #3a3a4a !important;
+}
+
+body.skin4 .media-not-sec .panels p {
+	background: #01294f;
+}
+
+body.skin4 .chf-moneymarkit .tab-content,
+body.skin4 .moneymarkit .tab-content,
+body.skin4 .coming-soon {
+	background: var(--blackishblack) !important;
+}
+
+body.skin4 .chf-moneymarkit .nav-tabs .nav-link {
+	background-color: #4e4e5a !important;
+}
+
+body.skin4 .moneymarkit-modal .chf-moneymarkit .tab-content,
+body.skin4 .moneymarkit-modal .moneymarkit .tab-content {
+	background: rgb(74, 86, 99) !important;
+}
+
+body.skin4 .panel-inverse>.panel-heading {
+	background: #101015 !important;
+}
+
+body.skin4 .chf-moneymarkit .nav-link.active,
+body.skin4 .chf-moneymarkit .nav-items:hover a,
+body.skin4 .moneymarkit .nav-tabs a.nav-link.active,
+body.skin4 .moneymarkit .nav-tabs .nav-items:hover .nav-link,
+body.skin4 .notification-tabs .nav-link.active,
+body.skin4 .level-control .nav-tabs a.nav-link.active {
+	background: var(--lightpink) !important;
+	color: var(--white);
+	border-color: var(--lightpink) !important;
+}
+
+body.skin4 td.bidActive {
+	color: var(--white) !important;
+	background: rgba(4, 193, 66, 0.5) !important;
+}
+
+body.skin4 td.offerActive {
+	color: var(--white) !important;
+	background: rgba(255, 53, 2, 0.5) !important;
+}
+
+body.skin4 tr.inFocus {
+	background: #4e4e5a !important;
+}
+
+body.skin4 .note.note-secondary,
+body.skin4 .note.note-default {
+	background: #4e4e5a !important;
+}
+
+body.skin4 .inter-bank-row .d-flex.align-items-end.pb-3 {
+	border-bottom: 0.071rem solid var(--whitergba15) !important;
+}
+
+body.skin4 #profile-setting .modal-body {
+	background-color: var(--blackishblack) !important;
+}
+
+body.skin4 .profile-popup .tab,
+body.skin4 .profile-popup .tab button {
+	background-color: var(--lightpink);
+}
+
+body.skin4 .profile-popup .tab button.active,
+body.skin4 .profile-popup .tab button:hover {
+	background-color: #b55253;
+}
+
+body.skin4 .profile-popup .tire-range-btn {
+	background-color: var(--cyan) !important;
+	border-color: var(--cyan);
+}
+
+body.skin4 .profile-popup .tire-range-area,
+body.skin4 .profile-popup .change-new-pass {
+	background-color: #272731;
+	border: 0.071rem solid #272731;
+}
+
+body.skin4 .profile-popup .btn.btn-defult.btn-green-save {
+	background-color: var(--skyblue) !important;
+	border-color: var(--skyblue) !important;
+}
+
+body.skin4 .moneymarkit .badge.badge-warning,
+body.skin4 .label.label-warning {
+	background: var(--skyblue) !important;
+}
+
+body.skin4 .moneymarkit .badge-danger {
+	background-color: var(--skyblue) !important;
+}
+
+body.skin4 .moneymarkit #default-tab-2 .btn.btn-warning {
+	background: var(--skyblue) !important;
+	border-color: var(--skyblue) !important;
+}
+
+body.skin4 .moneymarkit #default-tab-2 .btn.btn-warning:hover,
+body.skin4 .moneymarkit #default-tab-2 .btn.btn-warning:focus {
+	background: var(--skyblue) !important;
+	border-color: var(--skyblue) !important;
+}
+
+body.skin4 .moneymarkit #default-tab-2 th.success {
+	background: var(--lightpink) !important;
+}
+
+body.skin4 .spreadsheet-table .bg-green-transparent-2 {
+	background-color: rgba(232, 106, 107, 0.4) !important;
+}
+
+body.skin4 .spreadsheet-table .bg-red-transparent-1 {
+	background-color: rgba(45, 131, 240, 0.1) !important;
+}
+
+body.skin4 .spreadsheet-table .bg-red-transparent-2 {
+	background-color: rgba(45, 131, 240, 0.2) !important;
+}
+
+body.skin4 .moneymarkit #default-tab-2 th.danger {
+	background: var(--skyblue) !important;
+}
+
+body.skin4 .holidaycontent .panel-body {
+	background: rgba(119, 118, 118, 0.3) !important;
+}
+
+body.skin4 .holidaycontent .panel-body button.btn-default {
+	background: var(--whitergba25) !important;
+	color: var(--white) !important;
+}
+
+body.skin4 .holidaycontent .panel-body .btn-default:hover {
+	background: var(--whitergba15) !important;
+	color: var(--white) !important;
+}
+
+body.skin4 .fc-day-grid-event .fc-content,
+body.skin4 .holiday-lines {
+	color: var(--white) !important;
+	background: var(--skyblue) !important;
+}
+
+body.skin4 .fc-read-more span.fc-title {
+	color: var(--white);
+}
+
+body.skin4 .fc-day-grid-event.fc-read-more .fc-content {
+	background: transparent !important;
+}
+
+body.skin4 .tradingpartnerdetail label.file-upload__label:hover,
+body.skin4 .btn-orange:hover {
+	background: var(--skyblue) !important;
+	border-color: var(--skyblue) !important;
+}
+
+body.skin4 .tradingpartnerdetail label.file-upload__label,
+body.skin4 .btn-orange {
+	background: var(--skyblue) !important;
+}
+
+body.skin4 .clickswitch .outer {
+	background: linear-gradient(to right, #204550 42%, #06445d 49%, #104b65 100%, var(--smokeblack) 100%, #131111 100%) !important;
+	background: -webkit-linear-gradient(left, #204550 42%, #06445d 49%, #104b65 100%, var(--smokeblack) 100%, #131111 100%) !important;
+}
+
+body.skin4 .contentside {
+	background-color: #272731 !important;
+}
+
+body.skin4 .text-orange,
+body.skin4 .text-orange:hover {
+	color: var(--lightpink) !important;
+}
+
+body.skin4 .counter-price-rate {
+	color: var(--lightpink) !important;
+}
+
+body.skin4 .chf-moneymarkit .text-orange-lighter {
+	color: #23a231 !important;
+}
+
+body.skin4 .chf-moneymarkit table i.openclose.fa-chevron-right {
+	color: var(--white) !important;
+}
+
+body.skin4 .sidebar-contact input.search_input {
+	background: #283748 !important;
+}
+
+body.skin4 .nav-side-menu .badge,
+body.skin4 .nav-side-menu .trade-badge {
+	background: var(--lightpink) !important;
+	color: var(--white) !important;
+}
+
+body.skin4 .network-link {
+	padding: 0.357rem 0.714rem;
+	border-radius: 0.286rem;
+}
+
+body.skin4 .network-link:hover {
+	padding: 0.357rem 0.714rem;
+	border-radius: 0.286rem;
+}
+
+/*Black theme layout close*/
+body.skin4 .news-arrow,
+body.skin4 .search-div .search,
+body.skin4 .link-unlink-div,
+.body.skin4 .reloadSingle {
+	background: var(--lightpink) !important;
+}
+
+body.skin4 .holiday-right-side .panel-body .fc-h-event {
+	background: var(--lightpink) !important;
+	border: 0.071rem solid var(--fc-event-bg-color, var(--lightpink));
+}
+
+body.skin4 .holiday-left-side button.btn-default.selected,
+body.skin4 .holiday-left-side .quicklinks-panel button.btn-default.selected {
+	background: var(--skyblue) !important;
+}
+
+body.skin4 .trading-website-link {
+	color: var(--lightpink) !important;
+}
+
+body.skin4 #credit-limit-table thead tr th,
+body.skin4 #credit-limit-table tr td {
+	background-color: #21212b !important;
+}
+
+body.skin4 .timeout-content-side {
+	background-color: #272731;
+}
+
+body.skin4 .bg-green-transparent-1 {
+	background-color: rgba(232, 106, 107, 0.15) !important;
+}
+
+body.skin4 .ticketmodal .btn-danger {
+	background: var(--lightpink) !important;
+	border-color: var(--lightpink) !important;
+	color: var(--white) !important;
+}
+
+body.skin2 td.valign-middle.f-s-20.text-center.previousRequest span {
+	color: rgba(0, 0, 0, 0.5) !important;
+}
+
+body.skin2 .message-inner-box-right {
+	background-color: #F2F4F7 !important;
+	color: #344054;
+}
+
+body.skin2 .currency-div {
+	background-color: var(--whiteishgray) !important;
+}
+
+body.skin2 #interStatePricesConfirmation .modal-footer .btn.btn-success {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 #interStatePricesConfirmation .modal-footer .btn.btn-danger.mb-2 {
+	background-color: #6c757d !important;
+}
+
+body.skin2 #toast-container .toast-success {
+	background-color: var(--teal) !important;
+}
+
+body.skin4 #toast-container .toast-success {
+	background-color: #23a231 !important;
+}
+
+body.skin4 .nav-items .nav-link .badge-warning,
+body.skin4 .nav-item .nav-link .badge-warning {
+	background-color: #fb9596 !important;
+}
+
+body.skin4 .chf-moneymarkit .table tbody tr.highlights-tr td {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin4 #livequotes1 table tbody tr td span.badge.badge-success.width-50 {
+	background-color: var(--lightpink) !important;
+}
+
+body.skin4 #livequotes1 table tbody tr td span.badge.badge-danger.width-50 {
+	background-color: var(--skyblue) !important;
+}
+
+body.skin4 .download-temp-ico i {
+	background-color: var(--lightpink) !important;
+}
+
+body.skin1 .network-link img.skin2-img,
+body.skin1 .network-link img.skin4-img {
+	display: none !important;
+}
+
+body.skin3 .network-link img.skin2-img,
+body.skin3 .network-link img.skin1-img {
+	display: none !important;
+}
+
+body.skin4 .network-link img.skin1-img,
+body.skin4 .network-link img.skin2-img {
+	display: none !important;
+}
+
+body.skin2 .network-link img.skin4-img {
+	display: none !important;
+}
+
+body.skin4 .sidebar-contact ul li i.fa.chat img.chaticon-main {
+	display: none !important;
+}
+
+body.skin1 .sidebar-contact ul li i.fa.chat img.chaticon-main {
+	display: none !important;
+}
+
+body.skin4 .message-inner-box-right,
+body.skin4 .invest {
+	background-color: var(--purple) !important;
+}
+
+body.skin1 .munix-bid-offer span,
+body.skin1 span.currency-name-tag,
+body.skin1 .munix-currency-box i {
+	color: var(--white) !important;
+}
+
+body.skin4 .munix-bid-offer span,
+body.skin4 span.currency-name-tag,
+body.skin4 .munix-currency-box i {
+	color: var(--white) !important;
+}
+
+body.skin1 .munix-currency-box,
+body.skin4 .munix-currency-box {
+	background-color: #323232 !important;
+	border: 0.071rem solid #323232 !important;
+}
+
+body.skin4 .currency-div select.form-control {
+	background: var(--whitergba15);
+}
+
+body.skin4 .currency-div select.form-control option {
+	color: var(--lightblack);
+}
+
+body.skin4 .ticketmodal table.table.w-100 {
+	background: var(--white);
+}
+
+body.skin4 .ticketmodal {
+	background: var(--white);
+}
+
+body.skin4 .ticketmodal .ticket-header {
+	background-color: var(--white);
+}
+
+body.skin4 .ticket-header span,
+body.skin4 .ticketmodal .ticket-header h4,
+body.skin4 .ticketmodal table.table.w-100 td {
+	color: var(--lightblack) !important;
+}
+
+body.skin4 .ticketmodal table .btn-default {
+	color: var(--lightblack);
+	background-color: var(--lightgray);
+}
+
+body.skin4 .ticketmodal table .btn-warning {
+	background-color: var(--navy) !important;
+	color: var(--white) !important;
+}
+
+body.skin4 .amount-words-counts-td p {
+	margin-bottom: 0px;
+	color: var(--darkgray) !important;
+	font-weight: 600;
+}
+
+body.skin4 .amount-words-counts-td p .text-success {
+	color: var(--darkgray) !important;
+}
+
+body.skin4 .ticketmodal table .form-control,
+body.skin4 .ticketmodal table .form-control:hover,
+body.skin4 .ticketmodal table .form-control:focus {
+	background: var(--lightgray) !important;
+	font-size: 0.857rem;
+	border: none;
+	box-shadow: none;
+	color: var(--lightblack);
+}
+
+body.skin4 .ticketmodal .mio-td span {
+	background: var(--skyblue) !important;
+	border-left: 0.071rem solid var(--skyblue) !important;
+	color: var(--white) !important;
+}
+
+body.skin4 .media-not-sec .news-content-div .col-xl-10 {
+	max-width: 90%;
+	flex: auto;
+	background: #4e4e5a !important;
+	border: 0.071rem solid #4e4e5a !important;
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+}
+
+body.skin3 .term-range-slider .ngx-slider .ngx-slider-pointer,
+body.skin3 .term-range-slider .ngx-slider .ngx-slider-selection {
+	background-color: var(--cyan) !important;
+}
+
+body.skin3 .display-head-p i {
+	color: var(--white) !important;
+}
+
+body.skin3 .bg-red-transparent-5 {
+	background-color: rgba(255, 53, 2, 0.5) !important;
+}
+
+body.skin3 .sidebar-contact ul li i.fa.chat img.chaticon-main {
+	display: none;
+}
+
+body.skin3 .chf-moneymarkit table i.openclose.fa-chevron-right {
+	color: var(--white) !important;
+}
+
+body.skin3 .nav-items .nav-link .badge-warning,
+body.skin3 .nav-item .nav-link .badge-warning {
+	background-color: rgb(172 109 236 / 90%) !important;
+}
+
+body.skin3 .munix-currency-box {
+	background-color: #354e65 !important;
+	border: 0.071rem solid #354e65 !important;
+}
+
+body.skin3 span.currency-name-tag,
+body.skin3 .munix-bid-offer span,
+body.skin3 .munix-currency-box i {
+	color: var(--white) !important;
+}
+
+body.skin3 .amount-words-counts-td p .text-success {
+	color: var(--white) !important;
+}
+
+body.skin3 .request-forquote a.btn.btn-default.width-100.btn-danger,
+body.skin3 .ticketmodal table .btn-default.btn-danger {
+	background: var(--purple) !important;
+	border-color: var(--purple) !important;
+}
+
+body.skin4 .ticketmodal table.table.w-100 td {
+	border-color: var(--lightgray) !important;
+}
+
+body.skin4 a.privacy-policy-text,
+body.skin4 .ssi-table-head li {
+	color: var(--white) !important;
+}
+
+body.skin2 #companySettings .company-td-block .badge.badge-small.badge-danger.blockaction.interactive {
+	background-color: var(--orangered) !important;
+}
+
+body.skin2 #companySettings .bid-ofr-td-box .width-50.badge.badge-small.interactive.tradeaction.badge-danger {
+	background-color: var(--navy) !important;
+}
+
+body.skin2 .reset-filter-box i {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 div#holiday-modal .modal-footer button.btn.btn-warning.text-white {
+	background-color: var(--teal) !important;
+	border: var(--teal) !important;
+}
+
+body.skin2 .plus-select-div .plus-select {
+	background-image: url(../../assets/img/icon/down-arrow-black.svg) !important;
+	background-repeat: no-repeat;
+	background-size: 0.857rem;
+	background-position: 90% 50%;
+}
+
+body.skin2 .Munix-broadcast-panel {
+	background: var(--white) !important;
+	box-shadow: 0px 0.214rem 0.429rem 0px var(--lightgray) !important;
+}
+
+body.skin2 .no-records-found {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 #addnewfeature-modal-first .modal-footer .btn-primary.btn,
+body.skin2 #addnewfeature-modal .modal-footer .form-btn .btn.btn-success,
+body.skin2 #newFeatureModal .modal-footer .btn.btn-success {
+	background-color: var(--teal) !important;
+	border-color: var(--teal) !important;
+}
+
+body.skin2 #newFeatureModal .card-header {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 .panel-body.new-holiday-panel label.Instrumental-label {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .table-striped tbody tr td input:nth-of-type(odd) {
+	background-color: var(--whiteishgray) !important;
+	border: 0.071rem solid var(--whiteishgray) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .tradingpartnerlist.clientlevellist .search-form input[type="search"] {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .note-content .notification-tabs .notification-banner-tabs .nav-items .nav-link {
+	color: rgba(36, 44, 96, 0.6);
+}
+
+body.skin2 .new-feature-notification-bell,
+body.skin2 .new-feature-learnmore,
+body.skin2 .learn-more-box {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 .panel-body.instrumental-panel label.Instrumental-label {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .calender-row .btn.btn-success.active {
+	background-color: var(--teal) !important;
+	border-color: var(--teal) !important;
+}
+
+body.skin2 table#rfq-table>tbody>tr>td {
+	border: none !important;
+}
+
+body.skin1 .notification-modal .note-content .table tbody td {
+	color: var(--white);
+	border-color: var(--ash) !important;
+}
+
+body.skin2 .notification-modal .note-content .table tbody td {
+	border-bottom: 0.071rem solid rgba(0, 0, 0, 0.15) !important;
+}
+
+body.skin2 .instpanel .panel-body.trading-partner-panel table td {
+	color: var(--darkgray) !important;
+}
+
+.counterparty-setting-tr th.counterheader-search {
+	padding: 0.5rem 0.214rem !important;
+}
+
+body.skin2 .tradingpartnerlist.clientlevellist .search-form {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 #profile-setting .modal-title {
+	border-bottom: 0.071rem solid #206291 !important;
+	background-color: #206291 !important;
+}
+
+body.skin2 .holidaycontent .panel-body,
+body.skin2 .trades-today .panel-body,
+body.skin2 .trades-today .panel,
+body.skin2 .repo-trades-today .repo-panel-body {
+	background: var(--white) !important;
+}
+
+body.skin2 img.chaticon-skin4 {
+	display: none !important;
+}
+
+body.skin2 .new-feature-panels {
+	background-color: #03483a !important;
+}
+
+body.skin1 .no-records-found {
+	color: var(--white) !important;
+}
+
+body.skin4 table.table.table-basic.create-trade-table .amount-words-counts-td p,
+body.skin4 table.table.table-basic.create-trade-table .amount-words-counts-td p span {
+	color: var(--white) !important;
+}
+
+body.skin4 .new-feature-notification-bell,
+body.skin4 .new-feature-learnmore,
+body.skin4 .learn-more-box {
+	background-color: var(--skyblue) !important;
+}
+
+body.skin4 .new-feature-panels {
+	background-color: #4e4e5a !important;
+}
+
+body.skin2 #rollingTrade-modal .table>tbody>tr>td {
+	border-bottom: none !important;
+}
+
+body.skin3 span.counter-price.text-orange,
+body.skin3 .counter-price-rate {
+	color: var(--lime) !important;
+}
+
+body.skin3 img.initial-price-tag.skin2-img,
+body.skin1 img.initial-price-tag.skin2-img,
+body.skin4 img.initial-price-tag.skin2-img {
+	display: none !important;
+}
+
+body.skin4 .highlights-tr a.btn.btn-default.width-100.mb-xs-2.btn-success {
+	background-color: var(--lightpink) !important;
+	border: var(--lightpink) !important;
+}
+
+body.skin4 .highlights-tr a.btn.btn-default.width-100.btn-danger {
+	background-color: var(--skyblue) !important;
+	border: var(--skyblue) !important;
+}
+
+body.skin4 .captain-icon.skin-2-img,
+body.skin3 .captain-icon.skin-2-img,
+body.skin1 .captain-icon.skin-2-img,
+body.skin2 .captain-icon {
+	display: none !important;
+}
+
+body.skin4 li.sidebar-contact ul li .user-div a i img.chaticon-main,
+body.skin3 li.sidebar-contact ul li .user-div a i img.chaticon-main {
+	display: none;
+}
+
+body.skin2 .contentside .currency-div select.form-control.skin-2-filter {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-repeat: no-repeat;
+	background-image: url(/assets/img/icon/down-arrows-black.svg);
+	background-size: 1.786rem;
+	background-position: right center;
+}
+
+body.skin2 a.filter-btn.text-white {
+	color: #404f63 !important;
+}
+
+body.skin2 .nav-side-menu li .pull-right i.fa-angle-down {
+	color: var(--darkgray) !important;
+}
+
+body.skin4 .term-range-slider>.ngx-slider .ngx-slider-bubble,
+body.skin4 .term-range-slider>.ngx-slider .ngx-slider-bubble.ngx-slider-limit,
+body.skin4 .broken-dates-slider>.ngx-slider .ngx-slider-bubble,
+body.skin4 .broken-dates-slider>.ngx-slider .ngx-slider-bubble.ngx-slider-limit {
+	color: var(--lightblack) !important;
+}
+
+body.skin1 .tablinks img.chaticon-main {
+	display: initial;
+}
+
+body.skin4 .chat-delete-ico i.fa.fa-times-circle.chat-trash .fa-times-circle:before {
+	color: var(--lightblack) !important;
+}
+
+body.skin4 #MidTermSettings .term-range-slider>.ngx-slider .ngx-slider-bubble {
+	color: var(--white) !important;
+}
+
+body.skin2 .selected-list .c-angle-down svg,
+body.skin2 .selected-list .c-angle-up svg {
+	fill: var(--lightblack) !important;
+}
+
+body.skin1 .request-incognito {
+	background-color: #323232 !important;
+	color: var(--white) !important;
+}
+
+body.skin1 .dfooter {
+	background-color: #323232 !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .thought-exchange .count-badge.badge.badge-success {
+	min-width: 0.714rem;
+	padding: 0.214rem 0.5rem;
+	font-size: 0.714rem;
+	border-radius: 0.714rem;
+	background-color: var(--white) !important;
+	color: var(--teal) !important;
+}
+
+body.skin2 .moneymarkit .nav-tabs a.tweet-sub-tab {
+	background-color: var(--white) !important;
+}
+
+body.skin1 .message-inner-box.message-inner-box-right .file-box-chat,
+body.skin2 .message-inner-box.message-inner-box-right .file-box-chat,
+body.skin3 .message-inner-box.message-inner-box-right .file-box-chat,
+body.skin4 .message-inner-box.message-inner-box-right .file-box-chat {
+	color: var(--white) !important;
+	text-decoration: underline;
+}
+
+body.skin1 .message-inner-box.message-inner-box-left .file-box-chat,
+body.skin2 .message-inner-box.message-inner-box-left .file-box-chat,
+body.skin3 .message-inner-box.message-inner-box-left .file-box-chat,
+body.skin4 .message-inner-box.message-inner-box-left .file-box-chat {
+	color: var(--lightblack) !important;
+}
+
+body.skin4 .text-center.no-records-found,
+body.skin3 .text-center.no-records-found {
+	color: var(--white) !important;
+}
+
+body.skin2 .text-center.no-records-found {
+	color: var(--darkgray) !important;
+}
+
+body.skin2 .chf-moneymarkit table tr.mainelement td button.btn.disabled {
+	background: #a09b9b !important;
+}
+
+body.skin2 .chf-moneymarkit .table td button.btn.btn-default.w-100.bg-red-transparent-5.btn-danger {
+	background-color: #a5331a !important;
+	border-color: transparent !important;
+}
+
+body.skin2 li.li-chat-list {
+	color: var(--darkgray);
+}
+
+body.skin1 li.li-chat-list,
+body.skin3 li.li-chat-list,
+body.skin4 li.li-chat-list {
+	color: var(--white);
+}
+
+.skin2 .trade-term-sheet {
+	margin: 0;
+}
+
+.skin1 .thoughtTitle,
+.skin2 .thoughtTitle {
+	font-size: 1.143rem;
+	font-weight: 700;
+	color: #9c2234;
+}
+
+.skin3 .thoughtTitle,
+.skin4 .thoughtTitle {
+	font-size: 1.143rem;
+	font-weight: 700;
+	color: var(--white);
+}
+
+body.skin1 .bell-notification .badge {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	font-size: 1rem;
+	border-radius: 50%;
+	background-color: var(--blue);
+	color: var(--white);
+	border: 0.143rem solid var(--blue);
+}
+
+body.skin1 .bell-notification .notifications-detail li span {
+	color: var(--orange);
+	font-size: 0.714rem;
+}
+
+body.skin1 .bell-notification .notifications-detail {
+	background-color: #323232 !important;
+}
+
+body.skin1 .bell-notification .notifications-detail li {
+	color: var(--white) !important;
+}
+
+body.skin1 .bell-notification .notifications-detail li a {
+	color: var(--white) !important;
+}
+
+body.skin1 .fa-angle-down::after {
+	color: var(--white) !important;
+}
+
+body.skin1 .fa-times::after {
+	color: var(--white) !important;
+}
+
+.skin2 .bell-notification i.fa-times::before,
+.skin3 .bell-notification i.fa-times::before,
+.skin4 .bell-notification i.fa-times::before {
+	color: var(--lightblack);
+}
+
+.skin2 .bell-notification i.fa-angle-down::before,
+.skin3 .bell-notification i.fa-angle-down::before,
+.skin4 .bell-notification i.fa-angle-down::before {
+	color: var(--lightblack);
+}
+
+body.skin1 .notifications-to-show .dropdown-menu:before {
+	content: "";
+	width: 0.714rem;
+	height: 0.714rem;
+	border-bottom: solid 0.714rem #272727 !important;
+	border-left: solid 0.714rem transparent;
+	border-right: solid 0.714rem transparent;
+	position: absolute;
+	top: -10px;
+	right: 2.357rem;
+}
+
+body.skin2 .data-loading {
+	color: var(--darkgray);
+}
+
+body.skin1 .data-loading,
+body.skin3 .data-loading,
+body.skin4 .data-loading {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+body.skin2 .bell-notification .badge {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	font-size: 0.857rem;
+	border-radius: 50%;
+	background-color: var(--teal);
+	color: var(--white);
+	border: 0.143rem solid var(--teal);
+}
+
+body.skin2 .bell-notification .notifications-detail li span {
+	color: var(--navy);
+	font-size: 0.714rem;
+}
+
+body.skin3 .bell-notification .badge {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	font-size: 0.857rem;
+	border-radius: 50%;
+	background-color: var(--lime);
+	color: var(--white);
+	border: 0.143rem solid var(--lime);
+}
+
+body.skin3 .bell-notification .notifications-detail li span {
+	color: var(--purple);
+	font-size: 0.714rem;
+}
+
+body.skin4 .bell-notification .badge {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	font-size: 0.857rem;
+	border-radius: 50%;
+	background-color: var(--lightpink);
+	color: var(--white);
+	border: 0.143rem solid var(--lightpink);
+}
+
+body.skin4 .bell-notification .notifications-detail li span {
+	color: var(--lightpink);
+	font-size: 0.714rem;
+}
+
+body.skin1 .notification-backgorund {
+	background-color: rgba(255, 255, 255, 0.25);
+}
+
+body.skin1 .withdrawText,
+body.skin3 .withdrawText,
+body.skin4 .trades-today .withdrawText {
+	color: var(--white);
+}
+
+.skin2 .withdrawText {
+	color: var(--lightblack);
+}
+
+.skin2 .currency-div i.fa-redo-alt {
+	color: var(--darkgray);
+}
+
+body.skin1 .inter-bank-row small a,
+body.skin3 .inter-bank-row small a,
+body.skin4 .inter-bank-row small a {
+	color: var(--white);
+	text-decoration: underline;
+}
+
+body.skin2 .inter-bank-row small a {
+	color: var(--lightblack);
+}
+
+body.skin2 .inter-bank-row span {
+	color: var(--lightblack);
+}
+
+body.skin3 .im-red {
+	color: var(--purple);
+}
+
+body.skin4 .im-red {
+	color: var(--lightpink);
+}
+
+body.skin1 .underline-text,
+body.skin3 .underline-text,
+body.skin4 .underline-text {
+	text-decoration: underline;
+	color: var(--white);
+}
+
+body.skin2 .underline-text {
+	text-decoration: underline;
+	color: var(--lightblack);
+}
+
+body.skin1 td .trade-action {
+	background-color: var(--blueishblue);
+	color: var(--white);
+	font-size: 0.857rem;
+	border: none;
+	border-radius: 1.429rem;
+}
+
+body.skin2 td .trade-action {
+	background-color: var(--teal);
+	color: var(--white);
+	font-size: 0.857rem;
+	border: none;
+	border-radius: 1.429rem;
+}
+
+body.skin3 td .trade-action {
+	background-color: var(--lime);
+	color: var(--white);
+	font-size: 0.857rem;
+	border: none;
+}
+
+body.skin4 td .trade-action {
+	background-color: var(--lightpink);
+	color: var(--white);
+	font-size: 0.857rem;
+	border: none;
+}
+
+body.skin2 .trade-Preference-sub {
+	font-size: 1rem;
+	color: var(--darkgray);
+}
+
+body.skin2 .support-head .support-icon,
+body.skin2 .current-timer,
+body.skin2 .bell-notify,
+body.skin2 .FQX-onboarding-status button {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .FQX-onboarding-status button {
+	color: var(--lightblack) !important;
+	border: 0.071rem solid var(--lightblack);
+}
+
+body.skin2 .btn.btn-default.syn-btn {
+	background: #a09b9b !important;
+	color: #e8ebf0;
+}
+
+body.skin3 .btn.btn-default.syn-btn {
+	background: hsla(0, 0%, 100%, 0.35) !important;
+	color: #354e65 !important;
+}
+
+body.skin4 .btn.btn-default.syn-btn {
+	background: hsla(0, 0%, 100%, 0.35) !important;
+	color: #4e4e5a !important;
+}
+
+body.skin1 .grid-date-new hr.duration-splitter {
+	background-color: var(--orange);
+}
+
+body.skin2 .grid-date-new hr.duration-splitter {
+	background-color: var(--teal);
+}
+
+body.skin3 .grid-date-new hr.duration-splitter {
+	background-color: var(--lime);
+}
+
+body.skin4 .grid-date-new hr.duration-splitter {
+	background-color: var(--lightpink);
+}
+
+body.skin1 .chf-moneymarkit td .myDpDaycell,
+body.skin3 .chf-moneymarkit td .myDpDaycell,
+body.skin4 .chf-moneymarkit td .myDpDaycell {
+	color: var(--lightblack);
+}
+
+body.skin1 .new-notice,
+body.skin3 .new-notice,
+body.skin4 .new-notice {
+	color: var(--white);
+}
+
+body.skin1 #moneymarkitsettings .modal-lg .modal-body table,
+body.skin3 #moneymarkitsettings .modal-lg .modal-body table,
+body.skin4 #moneymarkitsettings .modal-lg .modal-body table {
+	color: var(--white);
+}
+
+body.skin2 .grid-date-new hr.duration-splitter {
+	background-color: var(--teal) !important;
+}
+
+body.skin2 td.sublead.text-orange {
+	color: var(--teal) !important;
+}
+
+body.skin2 .contactus-modal .modal-body .list-group-item {
+	background-color: var(--teal) !important;
+}
+
+body.skin1 #profile-setting .modal-dialog .profile-title {
+	background-color: #252525;
+}
+
+body.skin2 #profile-setting .modal-dialog .profile-title {
+	background-color: var(--teal);
+}
+
+body.skin3 #profile-setting .modal-dialog .profile-title {
+	background-color: var(--purple);
+}
+
+body.skin4 #profile-setting .modal-dialog .profile-title {
+	background-color: var(--lightpink);
+}
+
+body.skin2 .ag-theme-alpine-dark .ag-header {
+	background-color: var(--white);
+}
+
+body.skin3 .ag-theme-alpine-dark .ag-header,
+body.skin4 .ag-theme-alpine-dark .ag-header {
+	background: rgba(0, 0, 0, 0.25);
+}
+
+body.skin2 .ag-theme-alpine .ag-header-icon {
+	color: var(--ag-foreground-color, var(--lightblack));
+}
+
+body.skin2 .ag-theme-alpine .ag-row-odd {
+	background-color: var(--ag-odd-row-background-color, var(--white));
+	border: none;
+}
+
+body.skin2 .tradingpartnerlist .search-form {
+	color: var(--lightblack);
+}
+
+body.skin2 .tradingpartnerlist .search-form input[type="text"],
+body.skin2 .economic-mosaic-list .eco-calendar-search {
+	border: 0.071rem solid var(--lightblack) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin3 .ag-theme-alpine .ag-row-odd {
+	background-color: var(--ag-odd-row-background-color, #283849);
+	border: none;
+}
+
+body.skin3 .tradingpartnerlist .search-form input[type="text"] {
+	background-color: var(--blackishblack);
+	color: var(--white);
+}
+
+body.skin4 .ag-theme-alpine .ag-row-odd {
+	background-color: var(--ag-odd-row-background-color, var(--blackishblack));
+	border: none;
+}
+
+body.skin4 .tradingpartnerlist .search-form input[type="text"] {
+	background-color: #4e4e5a;
+	color: var(--white);
+}
+
+body.skin2 .expiry-timer-buttons .btn-outline-primary:hover {
+	color: var(--white) !important;
+	background-color: var(--teal);
+	border-color: var(--teal);
+}
+
+body.skin3 .btn-check:active+.btn-outline-primary,
+body.skin3 .btn-check:checked+.btn-outline-primary,
+body.skin3 .btn-outline-primary.active,
+body.skin3 .btn-outline-primary.dropdown-toggle.show,
+body.skin3 .btn-outline-primary:active {
+	color: var(--white) !important;
+	background-color: var(--purple) !important;
+	border-color: var(--purple) !important;
+}
+
+body.skin3 .expiry-timer-buttons .btn-outline-primary:hover {
+	color: var(--white) !important;
+	background-color: var(--purple);
+	border-color: var(--purple);
+}
+
+body.skin4 .btn-check:active+.btn-outline-primary,
+body.skin4 .btn-check:checked+.btn-outline-primary,
+body.skin4 .btn-outline-primary.active,
+body.skin4 .btn-outline-primary.dropdown-toggle.show,
+body.skin4 .btn-outline-primary:active {
+	color: var(--white) !important;
+	background-color: var(--lightpink) !important;
+	border-color: var(--lightpink) !important;
+}
+
+body.skin4 .expiry-timer-buttons .btn-outline-primary:hover {
+	color: var(--white) !important;
+	background-color: var(--lightpink);
+	border-color: var(--lightpink);
+}
+
+body.skin2 #notice-reject-modal button.btn.btn-default.selected {
+	background: var(--teal) !important;
+	color: var(--white);
+}
+
+body.skin3 #notice-reject-modal button.btn.btn-default.selected {
+	background: var(--purple) !important;
+	color: var(--white);
+}
+
+body.skin4 #notice-reject-modal button.btn.btn-default.selected {
+	background: var(--lightpink) !important;
+	color: var(--white);
+}
+
+body.skin1 .trading-list-grid .ag-header-viewport {
+	background-color: #323232;
+}
+
+body.skin1 .trading-list-grid .ag-row-even {
+	background-color: #54504C;
+}
+
+body.skin1 .trading-list-grid .ag-row-odd {
+	background-color: #504B46;
+}
+
+body.skin2 .ag-theme-alpine-dark .ag-header,
+body.skin2 .ag-theme-alpine-dark .ag-paging-panel {
+	background-color: var(--whiteishgray);
+	color: var(--lightblack);
+	border: none;
+}
+
+body.skin2 .trading-list-grid .ag-header-cell-label {
+	color: var(--white);
+}
+
+body.skin2 .trading-list-grid .ag-header-viewport {
+	background-color: #242c60;
+}
+
+body.skin2 .trading-list-grid .ag-row-even {
+	background-color: var(--white);
+	color: var(--lightblack);
+	border: none;
+}
+
+body.skin2 .trading-list-grid .ag-row-odd {
+	background: #F8F9FC;
+	color: var(--lightblack);
+	border: none;
+}
+
+body.skin2 .ag-root-wrapper-body {
+	border-color: var(--white);
+	color: var(--lightblack);
+	background-color: var(--white);
+}
+
+body.skin2 .trading-list-grid .ag-disabled {
+	color: var(--blackrgba7);
+}
+
+body.skin2 .ag-header-icon {
+	color: var(--white);
+}
+
+body.skin3 .trading-list-grid .ag-row-even {
+	background-color: var(--grayishblue);
+}
+
+body.skin3 .trading-list-grid .ag-row-odd {
+	background-color: var(--darkishblue);
+}
+
+body.skin4 .trading-list-grid .ag-row-even {
+	background-color: var(--grayishgray);
+}
+
+body.skin4 .trading-list-grid .ag-row-odd {
+	background-color: var(--blackishblack);
+}
+
+body.skin1 .instpanel .panel-body .total-companies,
+body.skin3 .instpanel .panel-body .total-companies,
+body.skin4 .instpanel .panel-body .total-companies {
+	color: var(--white);
+}
+
+body.skin2 .instpanel .panel-body .total-companies {
+	color: var(--lightblack);
+}
+
+body.skin1 .tradingpartnerlist .instpanel .panel-body,
+body.skin3 .tradingpartnerlist .instpanel .panel-body,
+body.skin4 .tradingpartnerlist .instpanel .panel-body {
+	color: var(--white);
+}
+
+body.skin2 .tradingpartnerlist .instpanel .panel-body {
+	color: var(--lightblack);
+}
+
+body.skin1 .repo-quote-table .ag-theme-alpine-dark .ag-row:nth-child(even) {
+	background: #504B46;
+	border: none;
+}
+
+body.skin1 .repo-quote-table .ag-theme-alpine-dark .ag-row:nth-child(odd) {
+	background-color: #54504C;
+	border: none;
+}
+
+body.skin2 .repo-quote-table .ag-theme-alpine-dark .ag-row:nth-child(odd),
+body.skin2 .repo-basket-table tr:nth-child(even) {
+	background: #F8F9FC !important;
+	color: var(--marengo);
+	border: none;
+}
+
+body.skin2 .repo-quote-table .ag-theme-alpine-dark .ag-row:nth-child(even),
+body.skin2 .repo-basket-table tr:nth-child(odd) {
+	background-color: var(--white) !important;
+	color: var(--marengo);
+	border: none;
+}
+
+body.skin2 .repo-quote-table .ag-theme-alpine-dark .ag-header {
+	background-color: #242c60;
+}
+
+body.skin3 .repo-quote-table .ag-theme-alpine-dark .ag-row:nth-child(even),
+body.skin3 .repo-quote-table .ag-header-row-column {
+	background-color: rgb(40, 61, 80);
+}
+
+body.skin3 .repo-quote-table .ag-theme-alpine-dark .ag-row:nth-child(odd) {
+	background-color: rgba(119, 118, 118, 0.3);
+}
+
+body.skin4 .repo-quote-table .ag-theme-alpine-dark .ag-row:nth-child(even),
+body.skin4 .repo-quote-table .ag-header-row-column {
+	background-color: #21212b;
+}
+
+body.skin4 .repo-quote-table .ag-theme-alpine-dark .ag-row:nth-child(odd) {
+	background-color: var(--blackishblack);
+}
+
+body.skin2 .repo-panel-body .collateral-trade-action select {
+	background-color: #f8f8fa;
+	color: var(--darkgray);
+}
+
+body.skin2 .economic-mosaic-list {
+	background-color: #fff;
+	box-shadow: 0px 0.214rem 0.429rem 0px #ccc;
+	color: var(--lightblack);
+}
+
+body.skin2 .economic-mosaic-list table thead th,
+table tbody td,
+body.skin2 .economic-mosaic-table thead th {
+	border-color: var(--pepple) !important;
+}
+
+body.skin2 .economic-mosaic-list table thead tr,
+body.skin2 .economic-mosaic-list table tbody tr,
+body.skin2 .economic-mosaic-table thead tr {
+	background-color: #F8F9FC !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .economic-mosaic-table thead th:last-child:after {
+	background-color: #242c60 !important;
+}
+
+body.skin2 .economic-mosaic-table {
+	border-color: var(--pepple) !important;
+}
+
+body.skin2 .economic-mosaic-table.mosaic-table thead tr,
+body.skin2 .economic-mosaic-table.mosaic-table thead th:last-child:after {
+	background-color: #242c60 !important;
+}
+
+body.skin3 .economic-mosaic-list table thead tr,
+body.skin3 .economic-mosaic-table thead th:last-child:after {
+	background-color: #01294f !important;
+}
+
+body.skin2 .economic-mosaic-list table.economic-mosaic-table.w-100 tbody tr.calendar-date {
+	background-color: #EAECF5 !important;
+	border: none;
+}
+
+.body.skin2 .economic-mosaic-list table thead th {
+	border-bottom: 0.071rem solid var(--pepple);
+}
+
+body.skin2 .economic-mosaic-list .economic-mosaic-table .progress {
+	box-shadow: 0 0 0 0.143rem #1a4c89;
+}
+
+body.skin3 .economic-mosaic-list .economic-mosaic-table .progress {
+	box-shadow: 0 0 0 0.143rem #8536d7;
+}
+
+body.skin4 .economic-mosaic-list .economic-mosaic-table .progress {
+	box-shadow: 0 0 0 0.143rem #e86a6b;
+}
+
+body.skin2 .nav-side-menu li.profie-settings {
+	border-top: 0.25px solid var(--cadetgray);
+	border-bottom: 0.25px solid var(--cadetgray);
+}
+
+body.skin3 .economic-mosaic-list table thead tr {
+	background-color: #01294f !important;
+}
+
+body.skin2 .economic-mosaic-list .economic-mosaic-table .progress {
+	box-shadow: 0 0 0 0.143rem #1a4c89;
+}
+
+body.skin3 .economic-mosaic-list .economic-mosaic-table .progress {
+	box-shadow: 0 0 0 0.143rem #8536d7;
+}
+
+body.skin4 .economic-mosaic-list .economic-mosaic-table .progress {
+	box-shadow: 0 0 0 0.143rem #e86a6b;
+}
+
+body.skin2 .repo-market-tab.active img.insti-feature-icon {
+	filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(12deg) brightness(106%) contrast(101%) !important;
+}
+
+body.skin2 img.insti-chat-icon,
+body.skin2 img.insti-feature-icon,
+body.skin2 img.insti-mosaic-icon,
+body.skin2 .currencies-tab>li img.goldman-sachs {
+	filter: invert(75%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(95%) contrast(81%);
+}
+
+body.skin2 .nav-side-menu li.active img.insti-feature-icon,
+body.skin2 .nav-side-menu li.active img.insti-mosaic-icon,
+body.skin2 .nav-side-menu li.active img.insti-feature-icon:hover,
+body.skin2 .chf-moneymarkit .nav-tabs .nav-link:hover .skin2-img {
+	filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(12deg) brightness(106%) contrast(101%);
+}
+
+body.skin2 .nav-side-menu li a:hover img.insti-mosaic-icon,
+body.skin2 .currencies-tab>li a:hover img.goldman-sachs {
+	filter: invert(40%) sepia(24%) saturate(4734%) hue-rotate(143deg) brightness(90%) contrast(99%);
+}
+
+body.skin2 td .trade-action-disabled {
+	background: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-radius: 1.429rem;
+}
+
+.body-isChrome .skin3 .dropdown-menu .dropdown-menu-right {
+	position: absolute;
+	will-change: transform;
+	top: 0px;
+	left: 0px;
+	transform: translate3d(0px, 3.571rem, 0px);
+}
+
+body.skin2 .rfq-grid-table .c-btn {
+	border: 0.071rem solid var(--lightgray) !important;
+	padding: 0.714rem !important;
+	color: var(--lightblack) !important;
+	background-color: #eee !important;
+}
+
+body.skin2 .repo-panel {
+	background-color: var(--white);
+}
+
+body.skin4 .munix-main {
+	position: relative;
+	top: 66px;
+	background-color: #272731;
+}
+
+body.skin4 .instimatch-main {
+	position: relative;
+	top: 6.5rem;
+	background-color: #272731;
+}
+
+body.skin4 .news-content-div {
+	padding: 0.571rem 0 0;
+}
+
+body.skin4 .media-btn-div {
+	top: 3rem;
+}
+
+body.skin4 .munix-marquee {
+	top: 6.286rem;
+}
+
+body.skin1 .support-head img {
+	filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(125%) hue-rotate(215deg) brightness(116%) contrast(100%) !important;
+}
+
+body.skin1 ul.navbar-nav li {
+	color: #fff;
+}
+
+body.skin1 .sidenav-btn button.btn.btn-secondary {
+	background: #54504C;
+	border: 0.071rem solid var(--ash);
+	border-radius: 0.286rem !important;
+	font-size: 0.857rem !important;
+	font-weight: 400 !important;
+	color: #ffffff !important;
+}
+body.skin2 .nav-side-menu li.active {
+	background: #242C60 !important;
+}
+body.skin1 .left-nav-side-menu {
+	background: #54504C;
+	border-right: 0.25px solid var(--ash);
+}
+
+body.skin1 .left-nav-side-menu .nav-link.active {
+	background: #323232 !important;
+}
+
+body.skin2 .change-entity .icon-box img {
+	filter: invert(69%) sepia(21%) saturate(5253%) hue-rotate(114deg) brightness(100%) contrast(75%) !important;
+}
+
+body.skin2 #company-settings tr td {
+	color: var(--lightblack);
+}
+
+body.skin2 .moneymarkit .table tr:last-child .bid-ofr-td-box,
+body.skin2 .moneymarkit .table tr:last-child .liuidity-td {
+	border: none !important;
+}
+
+@media (max-width: 1200px) {
+
+	/* small screen css 2-09-2019*/
+	body.skin2 img.inslogo.inslogo-mob {
+		display: none !important;
+	}
+
+	body.skin2 img.inslogo.inslogo-mob-2 {
+		display: block !important;
+	}
+
+	body.skin3 .chf-moneymarkit .tab-content::-webkit-scrollbar-corner {
+		background-color: #283748;
+	}
+}
+
+body.skin2 .chf-moneymarkit .table thead {
+	background: #242C60 !important;
+}
+
+body.skin2 .chf-moneymarkit .table tbody td {
+	color: #475467 !important;
+}
+
+body.skin2 .chf-moneymarkit .table tbody td .tenor-date {
+	color: #98A2B3 !important;
+}
+
+body.skin2 .chf-moneymarkit .table tbody tr:nth-of-type(odd) {
+	background: #FFFFFF !important;
+}
+
+body.skin2 .chf-moneymarkit .table tbody tr:nth-of-type(odd) .bidActive {
+	background: #F3FEE7 !important;
+}
+
+body.skin2 .chf-moneymarkit .table tbody tr:nth-of-type(odd) .offerActive {
+	background: #FEF3F2 !important;
+}
+
+body.skin2 .chf-moneymarkit .table tbody tr:nth-of-type(even) {
+	background: #F8F9FC !important;
+}
+
+body.skin2 .chf-moneymarkit .table tbody tr:nth-of-type(even) .bidActive {
+	background: #E4FBCC !important;
+}
+
+body.skin2 .chf-moneymarkit .table tbody tr:nth-of-type(even) .offerActive {
+	background: #FEE4E2 !important;
+}
+
+body.skin2 .chf-moneymarkit .nav-tabs {
+	border-bottom: 0.071rem solid #eaeaf5 !important;
+}
+
+body.skin2 .pure-checkbox input[type="checkbox"]+label:before {
+	color: #242c60;
+	border: 0.071rem solid #242c60;
+}
+
+body.skin2 .pure-checkbox input[type="checkbox"]:checked+label:before {
+	background: #242c60;
+}
+
+body.skin1 .pure-checkbox input[type="checkbox"]+label:before {
+	color: #60605f;
+	border: 0.071rem solid #60605f;
+}
+
+body.skin1 .pure-checkbox input[type="checkbox"]:checked+label:before {
+	background: #60605f;
+}
+
+body.skin1 .selected-list .c-btn {
+	background: #54504c !important;
+	border: 0.071rem solid #7a7a78 !important;
+	border-radius: 0.25rem;
+	height:2.714rem;
+}
+
+body.skin1 .selected-list .c-list .c-token {
+	border-radius: 1.429rem !important;
+	background: #4e4c4c;
+}
+
+body.skin2 .selected-list .c-list .c-token {
+	border-radius: 1.429rem !important;
+	background: #242c60;
+}
+
+body.skin2 .request-forquote .table-basic td.mio-td input {
+	background: #ffffff !important;
+}
+
+body.skin1 .contentside .request-forquote .highlights-tr .btn-default.btn-danger {
+	background: #584343 !important;
+	border: 0.071rem solid #513A3A !important;
+	color: #ffffff !important;
+}
+
+body.skin1 .request-forquote .btn-warning {
+	background: #242c6052 !important;
+	border-color: #242C60 !important;
+	color: var(--white);
+}
+
+body.skin2 .modal-counterparty-quick-setting .modal-content {
+	background-color: var(--white) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .modal-counterparty-quick-setting table tr td .badge-success.active {
+	color: var(--white) !important;
+}
+
+body.skin1 img.icon-light {
+	filter: brightness(8.5);
+}
+
+body.skin2 .sidenav-modal .modal-content {
+	color: var(--lightblack) !important;
+	background: var(--white) !important;
+}
+
+body.skin2 table#live-previous-table {
+	color: var(--lightblack);
+}
+
+body.skin2 table#previousAllMyQuotes {
+	color: var(--lightblack);
+}
+
+body.skin2 .chf-moneymarkit .tab-content {
+	box-shadow: 0 0.071rem 0.214rem rgba(16, 24, 40, 0.1), 0 -1px -2px rgba(16, 24, 40, 0.06);
+	border-radius: 0.571rem;
+}
+
+body.skin1 .chf-moneymarkit .tab-content {
+	box-shadow: 0px 0.071rem 0.143rem 0.143rem #444;
+	border-radius: 0.571rem;
+}
+
+body.skin2 .chf-moneymarkit .tab-content,
+body.skin2 .moneymarkit .tab-content,
+body.skin2 .coming-soon {
+	background: var(--white) !important;
+	border-radius: 0.571rem;
+	box-shadow: 0px 0.214rem 0.429rem 0px var(--lightgray);
+	color: var(--lightblack);
+}
+
+body.skin2 .repo-filters {
+	background-color: var(--navy);
+}
+
+body.skin2 .ag-theme-alpine-dark .ag-root-wrapper {
+	border-color: var(--pepple);
+}
+
+body.skin2 .nav-side-menu .product-name {
+	border-bottom: 0.25px solid var(--pepple) !important;
+}
+
+body.skin2 .nav-side-menu .product-name h2 {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 li.profile-settings{
+	border-bottom: 0.25px solid var(--pepple);
+	border-top: 0.25px solid var(--pepple);
+}
+/* New css */
+body.skin2 .installation-guide-img-link {
+	color: var(--lightblack);
+}
+
+body.skin2 .download-temp-ico a {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .download-temp-ico .file-upload .label-icon-upload {
+	color: var(--lightblack) !important;
+}
+
+body.skin1 .chatbox {
+	background-color: #323232 !important;
+	border: 0.071rem solid var(--ash) !important;
+}
+
+body.skin1 .chatbox__body {
+	background: #54504C !important;
+	border-left: 0.071rem solid var(--ash);
+	border-right: 0.071rem solid var(--ash);
+}
+
+body.skin1 .ul_msg li {
+	color: #ffffff !important;
+}
+
+body.skin1 .chatbox .panel-footer .chat-input-area {
+	background: #4A4743;
+	border: 0.071rem solid var(--ash);
+	color: #ffffff;
+}
+
+body.skin1 .chatbox .panel-footer .bottom-div {
+	background: #323232 !important;
+}
+
+body.skin1 button.btn.bt_bg.btn-sm.cbutton.btn-success {
+	background: #54504C !important;
+	border: 0.071rem solid var(--ash) !important;
+	color: #ffffff !important;
+}
+
+body.skin1 .trading_partner_modal.trading_partner_view .modal-content {
+	background: #54504C !important;
+}
+
+body.skin1 .trading_partner_modal.trading_partner_view .modal-title {
+	color: #ffffff !important;
+}
+
+body.skin1 .trading_partner_modal.trading_partner_view .panel-body {
+	background: #323232;
+}
+
+body.skin1 .box-heading h4 {
+	color: #ffffff !important;
+}
+
+body.skin1 .head-inner span {
+	color: #ffffff !important;
+}
+
+body.skin1 .table.doc-table thead {
+	background: #54504C !important;
+}
+
+body.skin1 .mm-new-quote-modal-dialog .form-dark {
+	color: var(--white) !important;
+}
+
+body.skin1 .mm-new-quote-modal-dialog .form-dark::placeholder {
+	color: var(--white) !important;
+}
+
+body.skin2 .bg-green-transparent-5 {
+	background: #1B5E20 !important;
+}
+
+body.skin2 .bg-green-transparent-5:hover {
+	background: #1b5e20cc !important;
+}
+
+body.skin1 .money-market-initiate-quote-dialog .table tbody td select.agreement-select {
+	background: #54504C !important;
+	border: 0.071rem solid var(--ash) !important;
+	color: var(--white) !important;
+}
+
+body.skin1 .notification-modal.modal .modal-body .note-content td.counterbid-td span.initial-rate,
+.notification-modal.modal .modal-body .note-content td.counterbid-td span.initial-rate>span {
+	color: var(--white) !important;
+}
+
+body.skin1 .money-market-event-history .term-sheet-table th {
+	background: var(--lightblack);
+}
+
+body.skin2 .collateral-upload-btn label {
+	color: var(--white) !important;
+}
+
+body.skin1 .modal-confirm .modal-content {
+	background-color: #323232;
+}
+
+body.skin1 .modal-confirm .modal-content .close {
+	color: #fff;
+}
+
+body.skin1 #notice-invest .table tbody tr td {
+	background-color: #323232 !important;
+	color: var(--white) !important;
+}
+
+body.skin2 .moneymarkit .nav-tabs,
+body.skin2 .notification-banner-tabs,
+body.skin2 .moneymarkit .nav-tabs a.nav-link,
+body.skin2 .level-control .nav-tabs {
+	border-bottom: 0.071rem solid var(--pepple) !important;
+}
+
+body.skin2 .notification-popup-tabs li.nav-items a.nav-link {
+	color: rgba(36, 44, 96, 0.6);
+}
+
+body.skin1 table.table.table-striped.term-sheet-table.trade-term-sheet thead th {
+	background: #323232 !important;
+	color: #ffffff !important;
+}
+
+body.skin1 .money-market-event-history h4 {
+	color: #ffffff;
+}
+/* body.skin1 .modal-repo-quote .modal-header {
+
+body.skin1 table.table.table-striped.term-sheet-table.trade-term-sheet tbody td {
+	color: #ffffff;
+	border-color: var(--ash) !important;
+}
+
+body.skin1 .table.term-sheet-datatable.trade-term-sheet {
+	color: #ffffff !important;
+}
+
+body.skin2 table.new-trade-data-table tbody tr td {
+	color: #000;
+}
+
+body.skin2 .rolltrade-modal-dialog .modal-body {
+	background-color: var(--white) !important;
+}
+
+body.skin2 .rolltrade-modal-dialog .modal-header {
+	background-color: #242c60 !important;
+}
+
+body.skin2 .incognito-mode-box.incognito-roll-trade span {
+	color: #000;
+}
+
+body.skin2 .rolltrade-modal-dialog .modal-footer {
+	background: #ffffff !important;
+}
+
+body.skin2 .rolltrade-modal-dialog .expiry-timer-buttons .btn-outline-primary {
+	color: #0d0d0d !important;
+}
+
+body.skin2 .chf-moneymarkit .tab-content.rfq_full_height {
+	background: #EAECF5 !important;
+}
+
+body.skin2 .chf-moneymarkit tbody tr.highlights-tr td label {
+	color: var(--lightblack);
+}
+
+body.skin2 .chf-moneymarkit tbody tr td label,
+.value-maturity-date {
+	color: #475467;
+}
+
+body.skin1 .modal-repo-quote .modal-header {
+	color: var(--white);
+	border-top: 0.071rem solid var(--ash) !important;
+	border-bottom: 0.071rem solid var(--ash) !important;
+
+} */
+body.skin1 .modal-repo-quote .modal-content {
+	background-color: #474340 !important;
+}
+
+body.skin1 .modal-repo-quote,
+.modal-repo-quote h5 {
+	color: var(--white);
+}
+
+body.skin2 .modal-repo-quote h5 {
+	color: var(--lightblack);
+}
+
+body.skin2 .modal-repo-quote .modal-content .modal-body .form-control {
+	border: 0.071rem solid #D0D5DD;
+	color: var(--lightblack);
+	background-color: transparent !important;
+}
+
+body.skin2 .modal-repo-quote .modal-content .modal-body select option {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .modal-repo-quote .modal-content .modal-body .selected-list .c-btn {
+	background-color: transparent !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .callable-toggle label,
+body.skin2 span.reference-icons.cursor-pointer,
+body.skin2 .right-of-substitution label,
+body.skin2 .callable-toggle-t2 {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .repo-text-area,
+body.skin2 .callable-toggle-custom-input {
+	border: 0.071rem solid #D0D5DD;
+	color: var(--lightblack);
+	background-color: transparent !important;
+}
+
+body.skin2 .repo-quote-btn {
+	border: 0.143rem solid #D0D5DD !important;
+}
+
+body.skin2 .template-name {
+	border: 0.143rem solid #D0D5DD;
+	background-color: transparent !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .modal-repo-quote .modal-content .modal-body .select-field::after,
+body.skin2 .modal-repo-quote .modal-content .modal-body .btn-outline-dark,
+body.skin2 .modal-repo-quote .modal-content .modal-body .btn-rate {
+	border: 0.071rem solid #D0D5DD !important;
+	background-color: #fff;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .modal-repo-quote #dealDateContainer .input-group-append .btn.btn-secondary {
+	border: 0.071rem solid #D0D5DD !important;
+	border-left: 0.071rem solid #D0D5DD !important;
+	color: var(--lightblack) !important;
+	background-color: #fff !important;
+}
+
+body.skin1 .modal-repo-quote .expiry-timer-buttons .btn-outline-primary {
+	color: var(--white) !important;
+}
+
+body.skin2 .repo-quote-table .ag-theme-alpine-dark .ag-row-hover {
+	background: #4899d317 !important;
+}
+
+body.skin2 .moneymarkit .repo-setting-logs .table td {
+	border-color: var(--pepple) !important;
+}
+
+body.skin1 .modal-quote-details .modal-content {
+	background-color: #504e4e !important;
+}
+
+body.skin2 .quote-detail-table tr th,
+body.skin2 .quote-detail-table tr td {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .initiate-deals-content .quote-details-content .quote-detail-table tr {
+	border: 0.071rem solid var(--pepple);
+}
+
+body.skin2 .form-control.desired-amount {
+	background-color: transparent;
+	color: var(--lightblack);
+	border-color: var(--pepple);
+}
+
+body.skin2 .settlement-amount-label,
+body.skin2 .no-collateral-found {
+	color: var(--lightblack);
+}
+
+body.skin2 .repo-basket-table th,
+body.skin2 .repo-basket-table td {
+	border-color: var(--pepple) !important;
+}
+
+body.skin2 .repo-basket-table thead tr th {
+	color: var(--white) !important; 
+	background: var(--navy);
+}
+
+body.skin2 .repo-basket-table thead tr {
+	background-color: #4899d317 !important;
+}
+
+body.skin1 .repo-counter-rate .form-control.form-dark {
+	background-color: #71706f;
+	color: #fff;
+	border-color: var(--ash);
+}
+
+body.skin2 .black-modal .form-control-input {
+	background-color: #e4e4e4 !important;
+	border: 0.071rem solid #e4e4e4 !important;
+	color: var(--blackishblack);
+}
+
+body.skin1 .preview-trade-bar ul {
+	background-color: #323232 !important;
+	color: #ffffff !important;
+}
+
+body.skin1 .modal-dialog.modal-confirm p {
+	color: #ffffff !important;
+}
+
+body.skin2 .installation-guide-img {
+	filter: brightness(0) saturate(100%) invert(75%) sepia(51%) saturate(3661%) hue-rotate(177deg) brightness(83%) contrast(98%);
+}
+
+body.skin2 .moneymarkit .tab-content .tab-pane .table td,
+body.skin2 table.slim.counter-party-tablex tbody tr.counter-party-tablex-tr,
+body.skin2 ul.ssi-table-head {
+	border-color: var(--pepple) !important;
+}
+
+body.skin2 .repo-trades-today table thead th,
+body.skin2 .repo-trades-today table>thead>tr>th {
+	background-color: #242c60;
+}
+
+body.skin2 .sidebar-contact ul::-webkit-scrollbar {
+	background-color: #f5f5f5 !important;
+}
+
+body.skin2 .sidebar-contact ul::-webkit-scrollbar-thumb {
+	background-color: #242c60 !important;
+}
+
+body.skin2 .menu-list::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 0.429rem rgba(0, 0, 0, 0.3);
+	background: rgba(36, 44, 96, 0.09);
+}
+
+body.skin2 .menu-list::-webkit-scrollbar {
+	background-color: #f5f5f5;
+}
+
+body.skin2 .menu-list::-webkit-scrollbar-thumb {
+	background-color: #242c60;
+}
+
+body.skin2 .nav-link.active .plus-select,
+body.skin2 .nav-link:hover .plus-select {
+	color: #242C60 !important;
+}
+
+body.skin1 .empty-page {
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+body.skin1 .inform-commodity-agent-model .modal-body p {
+	color: var(--white) !important;
+}
+
+body.skin1 #commodity-modal-body {
+	background-color: #323232 !important;
+}
+
+body.skin1 .showMoreInstruction {
+	color: var(--white);
+}
+
+body.skin1 #reminder-commodity-modal .card {
+	background-color: #323232;
+}
+
+body.skin1 #reminder-commodity-modal .steps-heading,
+body.skin1 #reminder-commodity-modal .step-label,
+body.skin1 #reminder-commodity-modal .reminder-modal-text {
+	color: var(--white);
+}
+
+body.skin1 #reminder-commodity-modal .table-data-transection .table tbody tr td {
+	border-color: var(--ash) !important;
+}
+
+body.skin1 #commodity-matrix table thead tr th,
+#commodity-matrix table tbody tr td {
+	color: var(--white) !important;
+	border: 0.071rem solid var(--pepple) !important;
+}
+
+body.skin1 #commodity-matrix table thead tr,
+body.skin1 #commodity-matrix table tbody tr {
+	border-bottom: 0.071rem solid var(--pepple) !important;
+}
+
+body.skin2 .prrefed-comodity,
+.instruct-box,
+.sucsessful-msg {
+	border-bottom: 0.071rem dotted var(--pepple);
+}
+
+body.skin1 .skin2 {
+	display: none;
+}
+
+body.skin2 .skin1 {
+	display: none;
+}
+
+body.skin1 #ThankyouNote-commodity-modal .modal-body {
+	background-color: #323232;
+}
+
+body.skin1 #ThankyouNote-commodity-modal .modal-body p {
+	color: var(--white) !important;
+}
+
+body.skin2 .mm-counter-modal-dialog .modal-content .modal-body.modal-inner-body .body-border table.askMe-deal-detail tbody tr td,
+body.skin2 .mm-counter-modal-dialog .modal-content .modal-body.modal-inner-body .body-border table.askMe-deal-detail thead tr th {
+	border-color: var(--pepple) !important;
+}
+
+body.skin1 .badge.vwap,
+body.skin1 .badge.vwap-offer {
+	background-color: var(--whitergba25) !important;
+}
+
+body.skin2 .user-details-tooltip-wrapper {
+	background-color: var(--white) !important;
+}
+
+body.skin2 .contact-details p {
+	color: #5c5b5b !important;
+}
+
+body.skin2 .contact-details-head {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .chat-user-name h4 {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .quick-action-chat-icon i {
+	color: #5c5b5b !important;
+}
+
+body.skin2 .chat-user-name p {
+	color: #5c5b5b !important;
+}
+
+body.skin2 .quick-action-chat-input i {
+	color: #5c5b5b !important;
+}
+
+body.skin2 .quick-action-chat-icon img {
+	filter: brightness(0.5) !important;
+}
+
+body.skin2 button.close.close-user-tooltip-button {
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .economic-mosaic-table thead th {
+	background: #242c60 !important;
+}
+
+body.skin1 .modal-confirm .modal-body {
+	background-color: #323232;
+}
+
+body.skin1 .contentside .instrument-data-panel .instpanel .panel-body .table thead th,
+body.skin1 #categoryList-modal .modal-content .modal-body .table thead th {
+	background-color: #323232 !important;
+	border-color: var(--ash);
+}
+
+body.skin2 .contentside .instrument-data-panel .instpanel .panel-body .table thead th,
+body.skin2 #categoryList-modal .modal-content .modal-body .table thead th {
+	background-color: #242c60 !important;
+	border-color: var(--pepple);
+}
+
+body.skin1 .contentside .instrument-data-panel .instpanel .panel-body .table tbody tr:nth-of-type(odd),
+body.skin1 #categoryList-modal .modal-content .modal-body .table tbody tr:nth-of-type(odd),
+body.skin1 #maturing-transations-table.table tbody tr:nth-child(even),
+body.skin1 .redeem-trade .modal-body table tbody tr:nth-child(odd),
+body.skin1 .clientlevellist .instpanel .panel-body tbody tr:nth-child(odd),
+body.skin1 .economic-mosaic-list table.economic-mosaic-table tbody tr:nth-child(odd),
+body.skin1 .term-sheet-datatable.trade-term-sheet tbody tr:nth-child(odd) {
+	background: #54504C;
+}
+
+body.skin1 .contentside .instrument-data-panel .instpanel .panel-body .table tbody tr:nth-of-type(even),
+body.skin1 #categoryList-modal .modal-content .modal-body .table tbody tr:nth-of-type(even),
+body.skin1 #maturing-transations-table.table tbody tr:nth-child(odd),
+body.skin1 .redeem-trade .modal-body table tbody tr:nth-child(even),
+body.skin1 .clientlevellist .instpanel .panel-body tbody tr:nth-child(even),
+body.skin1 .economic-mosaic-list table.economic-mosaic-table tbody tr:nth-child(even),
+body.skin1 .term-sheet-datatable.trade-term-sheet tbody tr:nth-child(even) {
+	background: #504B46;
+}
+
+body.skin2 .contentside .instrument-data-panel .instpanel .panel-body .table tbody tr:nth-of-type(odd),
+body.skin2 #categoryList-modal .modal-content .modal-body .table tbody tr:nth-of-type(odd),
+body.skin2 #maturing-transations-table.table tbody tr:nth-child(even),
+body.skin2 .redeem-trade .modal-body table tbody tr:nth-child(odd),
+body.skin2 .clientlevellist .instpanel .panel-body tbody tr:nth-child(odd),
+body.skin2 .economic-mosaic-list table.economic-mosaic-table tbody tr:nth-child(odd),
+body.skin2 .term-sheet-datatable.trade-term-sheet tbody tr:nth-child(odd) {
+	background: #FFFFFF !important;
+}
+
+body.skin2 .contentside .instrument-data-panel .instpanel .panel-body .table tbody tr:nth-of-type(even),
+body.skin2 #categoryList-modal .modal-content .modal-body .table tbody tr:nth-of-type(even),
+body.skin2 #maturing-transations-table.table tbody tr:nth-child(odd),
+body.skin2 .redeem-trade .modal-body table tbody tr:nth-child(even),
+body.skin2 .clientlevellist .instpanel .panel-body tbody tr:nth-child(even),
+body.skin2 .economic-mosaic-list table.economic-mosaic-table tbody tr:nth-child(even),
+body.skin2 .term-sheet-datatable.trade-term-sheet tbody tr:nth-child(even) {
+	background: #F8F9FC !important;
+}
+
+body.skin2 .tradingpartnerlist .table,
+body.skin2 #categoryList-modal .modal-content .modal-body .table {
+	border-color: var(--pepple) !important;
+}
+
+body.skin2 table.term-sheet-table.trade-term-sheet th {
+	background: #242c60;
+}
+
+body.skin2 .list-group-item {
+	border-color: var(--pepple);
+}
+
+body.skin2 .instru-sec .instpanel.instrumental-panel {
+	background: #EAECF5 !important;
+}
+
+body.skin1 .thought-exchange .tab-pane {
+	background-color: rgba(0, 0, 0, 0.25) !important;
+	color: var(--white);
+}
+
+body.skin1 .thought-exchange-box {
+	background-color: #54504C;
+	box-shadow: 0px 0.214rem 0.143rem 0px #3333;
+}
+
+body.skin1 .thought-exchange-box h5 {
+	color: var(--white) !important;
+}
+
+body.skin1 .thought-exchange-box p {
+	font-size: 1rem;
+	color: var(--white) !important;
+}
+
+body.skin1 .thought-exchange-box p a {
+	color: var(--orange) !important;
+}
+
+body.skin2 .mm-counter-modal-dialog .amount-rate-msg-tr th {
+	border-color: var(--pepple) !important;
+}
+
+body.skin2 .moneymarkit .tab-content .assigned-cash-ssi .table tr th,
+body.skin2 .moneymarkit .tab-content .assigned-cash-ssi .table tr td {
+	color: var(--lightblack) !important;
+	border-color: var(--pepple) !important;
+}
+
+body.skin2 .nav-side-menu .btn.btn-secondary:active {
+	background-color: transparent;
+}
+
+body.skin2 .previous-trade .modal-content .modal-body .body-border .table tr td {
+	border-color: var(--pepple) !important;
+}
+
+body.skin2 .cancel-trade-modal-dialog .dialog-content .modal-body.modal-inner-body .table tr td,
+body.skin2 .cancel-trade-modal-dialog .dialog-content .modal-body.modal-inner-body .table tr th {
+	border-color: var(--pepple) !important;
+}
+
+body.skin2 .mmSettingBody .ag-theme-alpine-dark .ag-root-wrapper {
+	background-color: var(--white) !important;
+	background-color: var(--ag-background-color, var(--white)) !important;
+}
+
+body.skin2 .collateral-settings .ag-header-viewport {
+	background-color: #242c60;
+}
+
+body.skin2 .collateral-settings .ag-row-even {
+	background: #F8F9FC;
+	color: var(--lightblack);
+}
+
+body.skin2 .collateral-settings .ag-row-odd {
+	background: #FFFFFF;
+	color: var(--lightblack);
+}
+
+body.skin2 .collateral-modal tr:nth-child(1) {
+	background-color: #F8F9FC !important;
+}
+
+body.skin2 .repo-basket-table {
+	border: 0.071rem solid var(--pepple);
+}
+
+body.skin2 .repo-basket-table input {
+	border: 0.071rem solid var(--mystic) !important;
+	background-color: var(--white) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .Collateral-table-td-btn {
+	background-color: var(--pepple) !important;
+	border: 0.071rem solid var(--pepple) !important;
+	color: var(--lightblack) !important;
+}
+
+body.skin2 .Request-Collaterals-label {
+	color: var(--lightblack);
+}
+
+body.skin1 .head-inner h4 {
+	color: #d1d1d1;
+}
+
+body.skin1 #CompanyDocuments img {
+	filter: brightness(0) saturate(100%) invert(93%) sepia(0%) saturate(7500%) hue-rotate(192deg) brightness(109%) contrast(106%);
+}
+body.skin2 .request-forquote .expiry-timer-buttons .btn-check:checked+.btn-outline-primary {
+	background-color: #4899D3;
+	border-color: #4899D3;
+	color: var(--white) !important;
+}
+
+body.skin1 .request-forquote .form-control {
+	border: 0.071rem solid #d7d7d736 !important;
+}
+
+body.skin1 .settlement-dropdown select {
+	background-color: var(--white) !important;
+	color: var(--blackishblack) !important;
+}
+
+body.skin1 .settlement-dropdown select option {
+	background-color: var(--white) !important;
+	color: var(--blackishblack) !important;
+}
+
+body.skin1 .panel-heading-crossbtn .btn.btn-circle i {
+    color: var(--white);
+}
+
+body.skin2 .preferred-commodity-select {
+    background-color: var(--white);
+    color: var(--blackishblack);
+}
+body.skin2 .preview-trade-bar ul {
+    background-color: var(--white) !important;
+	font-size: 0.75rem !important;
+}
+
+body.skin2 .tradingpartnerlist .table thead tr th{
+	background-color: #242C60;
+}
+
+body.skin2 .tradingpartnerlist .table {
+	border: 0.071rem solid  var(--pepple) !important;
+}
+
+body.skin2 .expiry-timer-buttons .btn-check:checked + .btn-outline-primary {
+	background-color: var(--teal);
+    border-color: var(--teal);
+	color:var(--white) !important;
+}
+body.skin1 .fc.fc-theme-standard .fc-view-harness th {
+    background: #262626 !important;
+	border-color: var(--ash);
+	border-bottom: 0.025rem;
+}
+body.skin1 .fc.fc-theme-standard a {
+    color: #ffffff;
+}
+body.skin1 .fc.fc-theme-standard .fc-view-harness .fc-view {
+    background: #262626;
+}
+body.skin1 .holiday-right-side .fc-theme-standard td {
+	border-color: var(--ash) !important;
+}
+body.skin1 .fc.fc-theme-standard .fc-toolbar .fc-button:disabled {
+    border-color: #77706a;
+    line-height: 10px;
+}
+body.skin1 .fc.fc-theme-standard .fc-toolbar .fc-button {
+	border-color: #77706a;
+    line-height: 10px;
+}
+body.skin2 .rolling-trade-blue {
+    color: var(--teal) !important;
+}
+body.skin2 .panel.panel-inverse.quicklinks-panel .panel-body {
+    background: #EAECF5 !important;
+}
+body.skin2 .panel.panel-inverse.month-panel .panel-body {
+    background: #EAECF5 !important;
+}
+body.skin2 .mm-new-quote-modal-dialog h4 {
+    color: #101828;
+} 
+body.skin2 .chf-moneymarkit .tab-content.rfq_full_height {
+	background: #EAECF5 !important;
+}

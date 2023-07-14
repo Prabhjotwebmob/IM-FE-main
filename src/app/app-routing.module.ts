@@ -74,14 +74,13 @@ export const APP_ROUTES: Routes = [
 
       {
         path: '**',
-        loadChildren: () =>
-          loadRemoteModule({
-            type: 'manifest',
-            remoteName: 'money-market',
-            exposedModule: './Module',
-          }).then((m) => m.MarketModule),
+        redirectTo: 'money-market'
       }
     ]
+  },
+  {
+    path: '**',
+    redirectTo: ''
   }
 ];
 

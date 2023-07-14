@@ -17,7 +17,7 @@
       "@shared/*": [
         "src/app/shared/*"
       ],
-      "@libs/*": ["../IM-FE-libs/*"]
+      "@libs/*": ["../libs/*"]
     },
     "emitDecoratorMetadata": false,
     "allowJs": true,
